@@ -1,12 +1,14 @@
 # Python 수업 소개
 
 1. **Python 언어**  
+   
 
  > 파이썬 (Python)은 범용 프로그래밍 언어로서 코드 가독성(readability)와 간결한 코딩을 강조한 언어이다.  
  > 
  > 파이썬은 인터프리터(interpreter) 언어로서, 리눅스, Mac OS X, 윈도우즈 등 다양한 시스템에 널리 사용된다.
 
-2. **GoldenLab Python**  
+2. **GoldenLab Python**    
+ 
 
  > 처음 프로그램 언어를 접하는 사람도 쉽게 따라서 할 수 있도록 단계별로 쉽게 구성되어 있습니다.   
  > 
