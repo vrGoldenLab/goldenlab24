@@ -62,4 +62,6 @@ ls
 # 특정파일을 가져오고 싶은 경우 다음과 같이 접근한다.
 import pandas as pd
 df = pd.read_csv("./MyDrive/test/test.csv")
+
 ```
+### colab link[https://colab.research.google.com/drive/1sj2VBfqcuaCjV_eqMybXCoe11oWKo4Wc?usp=sharing](https://colab.research.google.com/drive/1sj2VBfqcuaCjV_eqMybXCoe11oWKo4Wc?usp=sharing)
