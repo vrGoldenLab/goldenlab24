@@ -7,7 +7,8 @@
   * [Colab환경확인](index-1/basic_usage.md)
   * [Markdown사용하기](index-1/markdown.md)
 * [골든랩 파이썬 기초](index-2/README.md)
-  * [코딩의 기초 형식](index-2/undefined/README.md)
+  * [코딩의 기초 형식](index-2/undefined/README.md)  
+  
     * [1.변수](index-2/undefined/index.md)
     * [2.배열](index-2/undefined/index-1.md)
     * [3.반복문 for](index-2/undefined/index-2.md)
