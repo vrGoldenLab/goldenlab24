@@ -64,4 +64,4 @@ import pandas as pd
 df = pd.read_csv("./MyDrive/test/test.csv")
 
 ```
-### colab link[https://colab.research.google.com/drive/1sj2VBfqcuaCjV_eqMybXCoe11oWKo4Wc?usp=sharing](https://colab.research.google.com/drive/1sj2VBfqcuaCjV_eqMybXCoe11oWKo4Wc?usp=sharing)
+### colab link [https://colab.research.google.com/drive/1sj2VBfqcuaCjV_eqMybXCoe11oWKo4Wc?usp=sharing](https://colab.research.google.com/drive/1sj2VBfqcuaCjV_eqMybXCoe11oWKo4Wc?usp=sharing)
