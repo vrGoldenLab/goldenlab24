@@ -8,8 +8,10 @@ Colab을 사용하기 위해 먼저 TensorFlow가 어떻게 동작하는지를 �
 ```python
 
 
-아래의 코드는 한줄씩 셀에서 실행하기 바란다. 쥬피터 노트북의 셀은 출력결과가 여러개인 경우 맨 마지막의 OutputStream 결과가 남으므로 이전 출력결과를 확인할 수 없기 때문이다. 일반적인 .py파일 작성과는 다르게 .ipynb파일의 경우 가급적 하나의 셀에 많은 코드를 작성하지 않는것이 좋다.
-
+아래의 코드는 한줄씩 셀에서 실행하는 것이 좋습니다.  
+쥬피터 노트북의 셀은 출력결과가 여러개인 경우 맨 마지막의 OutputStream 결과가 남으므로 이전 출력결과를 확인할 수 없기 때문입니다.   
+일반적인 .py파일 작성과는 다르게 .ipynb파일의 경우 가급적 하나의 셀에 많은 코드를 작성하지 않는것이 좋습니다.  
+ 
 !cat /etc/issue.net
 !cat /proc/meminfo
 !cat /proc/cpuinfo
@@ -18,7 +20,7 @@ Colab을 사용하기 위해 먼저 TensorFlow가 어떻게 동작하는지를 �
 !python --version
 !ls
 
-* 파일처리
+# 파일처리
 
 %%writefile  test.py
 print('hello world!')
@@ -33,7 +35,9 @@ files.download('test.py')
 # [Cancel upload] 버튼을 클릭하여 잠시 멈춘 후 파일선택 버튼을 클릭하면 PC 내 파일을 선택할 수 있는 다이얼로그 창이 뜬다.
 # 리턴값을 받는 변수인 myupload라는 이름의 디렉토리가 생성된다.
 myupload = files.upload()
-*구글드라이브 연동
+
+
+#구글드라이브 연동
 
 
 import os
