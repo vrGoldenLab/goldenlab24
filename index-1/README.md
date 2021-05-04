@@ -15,18 +15,14 @@ colab을 실제로 작동시켜 봅시다!
 * Git,Github와 쉽게 연동  
 
    
- ###**구글에서 만든 Colaboratory는 클라우드 기반의 개발환경**  
+ ### 구글에서 만든 Colaboratory는 클라우드 기반의 개발환경
  
  
-구글의 CPU, RAM, GPU를 사용해서 Jupiter Notebook과 같은 환경을 구성
-
-Colaboratory는 Google 리서치팀에서 개발한 제품입니다.
-
- Colab을 사용하면 누구나 브라우저를 통해 임의의 Python 코드를 작성하고 실행할 수 있습니다. 
- 
- Colab은 특히 머신러닝, 데이터 분석 및 교육에 적합합니다. 
- 
- Colab은 설정 없이도 사용 가능한 호스팅 Jupyter 메모장 서비스로, GPU를 포함한 컴퓨팅 리소스를 무료로 제공합니다.  
+   구글의 CPU, RAM, GPU를 사용해서 Jupiter Notebook과 같은 환경을 구성
+   Colaboratory는 Google 리서치팀에서 개발한 제품입니다.
+   Colab을 사용하면 누구나 브라우저를 통해 임의의 Python 코드를 작성하고 실행할 수 있습니다.  
+   Colab은 특히 머신러닝, 데이터 분석 및 교육에 적합합니다. 
+   Colab은 설정 없이도 사용 가능한 호스팅 Jupyter 메모장 서비스로, GPU를 포함한 컴퓨팅 리소스를 무료로 제공합니다.  
  
  ### colab 주의 사항  
   
@@ -36,7 +32,7 @@ Colaboratory는 Google 리서치팀에서 개발한 제품입니다.
 * 소스코드는 구글 드라이브에  저장 
 
 
-##**2. Colab 연결하기**
+## **2. Colab 연결하기**
 
 *   구글 드라이브로 이동
 *   구글 드라이브내 마우스 오른쪽 클릭(새로만들기) -> 연결할 앱 더보기   
@@ -45,7 +41,7 @@ Colaboratory는 Google 리서치팀에서 개발한 제품입니다.
 *   다시 구글 드라이브로 돌아가 마우스 오른쪽버튼을 클릭(새로만들기)하면 Google Colaboratory를 확인 할 수 있습니다.  
   
 
-##**3. GPU,TPU 사용하기**  
+## **3. GPU,TPU 사용하기**  
 
   런타임 유형 변경(Change runtime type) 필요  
 
@@ -75,8 +71,8 @@ Colaboratory는 Google 리서치팀에서 개발한 제품입니다.
     구글드라이브 마운트 명령어를 입력합니다  
     
     '''
-     from google.colab import drive
-     drive.mount('/content/drive')
+       from google.colab import drive
+       drive.mount('/content/drive')
     '''
 
     명령어 실행 후 화면에 표시된 링크로 접속합니다  
@@ -133,8 +129,7 @@ Colaboratory는 Google 리서치팀에서 개발한 제품입니다.
  
 ## Recommended Next Steps
 
-* [다운로드 및 설치](os_setup.md)
+* [파이썬 다운로드 및 설치](os_setup.md)
 * [기본적인 사용법](basic_usage.md)
-* [텐서플로우 구조](../index-2/undefined/index-2.md)
-* [텐서플로우 플레이그라운드](http://playground.tensorflow.org)
+* [파이썬](https://www.python.org/)
 
