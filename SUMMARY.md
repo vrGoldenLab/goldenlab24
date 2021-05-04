@@ -1,7 +1,7 @@
 # Table of contents
 
-* [GoldenLabPython](README.md)
-* [소개](index.md)
+* [GoldenLab Python](README.md)
+* [골든랩 파이썬 수업소개](index.md)
 * [시작하기](index-1/README.md)
   * [다운로드 및 설치](index-1/os_setup.md)
   * [기본적인 사용법](index-1/basic_usage.md)
