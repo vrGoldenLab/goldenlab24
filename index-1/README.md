@@ -59,7 +59,7 @@ Colaboratory는 Google 리서치팀에서 개발한 제품입니다.
   클라우드 환경이고 구글의 무료 자원을 사용하기 때문에 GPU,TPU를 무한정 사용할 수는 없습니다. Keras나 Tensorflow등을 사용할 때 사용합니다.
 
 ## **4. Google Drive와 연결**
-  #### 4.1 Drive Mount
+  ### Drive Mount
 
     좌측의 메뉴에서 폴더 모양을 선택   
 
@@ -70,9 +70,14 @@ Colaboratory는 Google 리서치팀에서 개발한 제품입니다.
     본인의 Google Drive 경로로 이동합니다  
   
   
-  #### 4.2 방법 2
+  #### 방법 2
 
     구글드라이브 마운트 명령어를 입력합니다  
+    
+    '''
+     from google.colab import drive
+     drive.mount('/content/drive')
+    '''
 
     명령어 실행 후 화면에 표시된 링크로 접속합니다  
 
