@@ -13,13 +13,40 @@
 * 함수의 기능과 내부 구현을 분리할 수 있습니다.
 #### 3. 파이썬에서 함수 구현
 * 함수 정의 키워드 def()
+       def 함수명(매개변수);
+              함수가 수핸할 일
+              return 함수가 반환할 객체
 ```
-            drf doubler(a):  # 함수,매개변수 정의
-              print( a * 2)
-            doubler(11)      # 함수 호출
+def doubler(a):  # 함수,매개변수 정의
+    print( a * 2)
+doubler(11)      # 함수 호출
 ```
+* 함수 키워드 return 
+* 함수를 호출할 때 결과값을 반환한다.
             
-```python
-images_feed, labels_feed = data_set.next_batch(FLAGS.batch_size)
+```
+def reapple():
+       a= 'apple'
+       return a
+text1 = reapple()
+
+```
+* 복수의 매개변수 구성 
+```
+def calcu1(a,b): #2개의 매개변수
+       c = a + b 
+       return c
+print(calcu1(10,8.7))  #2개의 인수 전달     
+```
+* 복수의 return값
+```
+def calcu2(a,b): #2개의 매개변수
+       result1 = a + b 
+       result2 = a - b 
+       result3 = a / b 
+       result4 = a * b 
+       return result1,result2,result3,result4
+print(calcu2(10,8.7))  #2개의 인수 전달  튜플로 반환   
+r1,r2,r4,r4 = (calcu2(10,8.7))  #2개의 인수 전달 4개의 변수로 반환  
 ```
 
