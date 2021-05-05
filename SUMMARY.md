@@ -19,7 +19,7 @@
     * [오늘의 코딩](index-2/undefined/index-3.md) 
   * [코딩의 기초 연습](index-2/tf.contrib.learn/README.md)
     * [입출력으로 크롤링](index-2/tf.contrib.learn/index.md)
-    * [삼육구 박수뽀숑 게임](index-2/tf.contrib.learn/index-1.md)
+    * [박수뽀숑 게임](index-2/tf.contrib.learn/index-1.md)
     * [colab Turtle로 그리기](index-2/tf.contrib.learn/index-2.md)
     * [github repository 만들기](index-2/tf.contrib.learn/index-3.md)  
     * [sudocode 작성하기](index-2/tf.contrib.learn/index-4.md)
