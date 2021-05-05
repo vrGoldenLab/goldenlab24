@@ -47,3 +47,4 @@
         * 문자형 자료를 숫자로 바꾸어 계산을 해야 하는 경우나 정수형 변수를 문자형으로 출력 해야 할 때가 있습니다. 이런 경우 변수를 강제 변환하는 명령어를 사용합니다.
    
    
+colab으로 실습하기 [https://colab.research.google.com/drive/1hcaetTRU7Yre6mOI3zysmCUtf7hzIiGP?usp=sharing](https://colab.research.google.com/drive/1hcaetTRU7Yre6mOI3zysmCUtf7hzIiGP?usp=sharing) 
