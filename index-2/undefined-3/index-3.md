@@ -14,4 +14,4 @@ SyntaxNet는 텐서플로우를 위한 뉴럴 네트워크 방식의 자연어 �
 * SyntaxNet 패키지에 포함된 Parsey McParseface 파서를 사용하는 방법
 * 사용자의 품사 태거를 훈련하는 방법
 * 사용자의 파서를 훈련하는 방법
-
+> **colab 코딩연습:** [https://colab.research.google.com/drive/1SfUHB1VT-hvU-0L0X75Urr8rWyBBhxVu?usp=sharing](https://colab.research.google.com/drive/1SfUHB1VT-hvU-0L0X75Urr8rWyBBhxVu?usp=sharing) 
