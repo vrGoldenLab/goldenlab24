@@ -6,7 +6,7 @@
 * index 0부터 2씩 건너 리스트 슬라이싱을 이용하여 홀수리스트를 만듭니다.
 * 두 리스트를 더하여 결과를 출력해 확인합니다
 
-### 참고> 인덱스 슬라이싱, 문자열 더하기  
+참고> 인덱스 슬라이싱, 문자열 더하기  
 
 > colab 작성: [https://colab.research.google.com/drive/1rbdNYK6a4GKU6o-uvZhj5oT9647s8w44?usp=sharing](https://colab.research.google.com/drive/1rbdNYK6a4GKU6o-uvZhj5oT9647s8w44?usp=sharing)  
 >
