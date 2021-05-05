@@ -1,6 +1,6 @@
 # 딕셔너리  
-* 대응 관계를 나타내는 자료형
-* 딕셔너리는 Key와 Value를 한 쌍으로 갖는 자료형
+대응 관계를 나타내는 자료형입니다. 
+딕셔너리는 Key와 Value를 한 쌍으로 갖고 있습니다.
 Key와 Value의 쌍 여러 개가 { }로 둘러싸여 있습니다. 각각의 요소는 Key : Value 형태로 이루어져 있고 쉼표(,)로 구분합니다.  
 {Key1:Value1, Key2:Value2, Key3:Value3, ...}  
 주민번호 : 이름 같이 자료를 순차적으로 검색하는 것이 아니라 key으로 대은 관계인 value값을 가져올 수 있습니다.
@@ -20,18 +20,18 @@ print(personal_list['이름'],' ',personal_list['나이'],'세',' ',personal_lis
 Key에 리스트는 쓸 수 없습니다. 하지만 튜플은 Key로 쓸 수 있습니다.  
 
 ### 딕셔너리 관련 함수들
-* keys()
+* keys():
 딕셔너리의 Key만을 모아서 dict_keys 객체를 돌려줍니다.
-* values()
+* values():
 딕셔너리의 value만을 모아서 dict_values 객체를 돌려줍니다.
-* items()
+* items():
 Key, Value 쌍을 dict_items로 반환합니다.
-* get()
+* get():
 key값으로 value 읽음
 딕션너리[key] 읽기와 동일하나 key가 없는 경우 디폴트값 반환(디폴트가 없으면 None)
-* in
+* in:
 안에 해당 key가 있는지 bool값으로 반환
-* clear()
+* clear():
 딕셔너리 모두 지우기
 
 
