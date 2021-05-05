@@ -2,9 +2,9 @@
 
 \(v1.0\)
 
-단순 테이블이 있는 웹페이지를 크롤링 예제입니다.
-몇 줄의 코드로 데이터를 가져오는 것이 가능합니다.
-코드를 복사해서 코랩에서 실행시켜 봅니다. 
+단순 테이블이 있는 웹페이지를 크롤링 예제입니다.  
+몇 줄의 코드로 데이터를 가져오는 것이 가능합니다.  
+코드를 복사해서 코랩에서 실행시켜 봅니다.   
 
 ```
 # 필요한 라이브러리를 불러옵니다.
@@ -28,3 +28,5 @@ df.head()
 ## 추가적인 자료
 
 * pandas 는 데이터 조작 및 분석을 위해 Python 프로그래밍 언어로 작성된 소프트웨어 라이브러리 입니다[https://en.wikipedia.org/wiki/Pandas_(software)] (https://en.wikipedia.org/wiki/Pandas_(software))
+
+* colab 으로 실습 [https://colab.research.google.com/drive/1T_eQbKQI0M1YenLzxZ0zPlBYhVw_rreD?usp=sharing](https://colab.research.google.com/drive/1T_eQbKQI0M1YenLzxZ0zPlBYhVw_rreD?usp=sharing)
