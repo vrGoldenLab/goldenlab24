@@ -28,4 +28,7 @@ a = input('주사위 수를 입력하세요')
 #b = int(a) 
 print(f'{r_count}번 주사위를 던져 {a}이 나온 횟수는 {t_dict[a])}번 입니다')
 ```
+> colab 작성: [https://colab.research.google.com/drive/15klrTP1tGukmKEsn0BJXaV-esE_XomsC?usp=sharing](https://colab.research.google.com/drive/15klrTP1tGukmKEsn0BJXaV-esE_XomsC?usp=sharing)  
+>
+> 과제 제출 설문지: [https://docs.google.com/forms/d/e/1FAIpQLSe9lTRW_YWo5CeBO55Vtw9FMnIrsrvCScCv-MzbhbNUAT-56A/viewform](https://docs.google.com/forms/d/e/1FAIpQLSe9lTRW_YWo5CeBO55Vtw9FMnIrsrvCScCv-MzbhbNUAT-56A/viewform)
 
