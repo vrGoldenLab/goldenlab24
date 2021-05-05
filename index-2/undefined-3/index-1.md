@@ -73,9 +73,9 @@ print(set3<=set5) #set3의 모든 원소가 set5에 존재
 ```
 ## 집합자료형 관련 함수
 
-1개값 추가 add
-여러개 값 추가 update
-특정값 제거 remove
+1개값 추가 add  
+여러개 값 추가 update  
+특정값 제거 remove  
 
 
 > **colab 코딩연습:** [https://colab.research.google.com/drive/1SfUHB1VT-hvU-0L0X75Urr8rWyBBhxVu?usp=sharing](https://colab.research.google.com/drive/1SfUHB1VT-hvU-0L0X75Urr8rWyBBhxVu?usp=sharing) 
