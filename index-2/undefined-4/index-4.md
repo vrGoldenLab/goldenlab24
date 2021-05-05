@@ -18,6 +18,6 @@
     3   * 8   = 24   |    9   * 8   = 72 
     3   * 9   = 27   |    9   * 9   = 81 
 ```
-> colab 작성: [https://colab.research.google.com/drive/1k2vNuQ-t9cU3CPdmNhsFxuX-vCrNq2Q1?usp=sharing](https://colab.research.google.com/drive/1k2vNuQ-t9cU3CPdmNhsFxuX-vCrNq2Q1?usp=sharing)  
+> colab 작성: [https://colab.research.google.com/drive/1Lh-hiwkUTn9xmdiBcrJHXW_c2094lVPv?usp=sharing](https://colab.research.google.com/drive/1Lh-hiwkUTn9xmdiBcrJHXW_c2094lVPv?usp=sharing)  
 >
 > 과제 제출 설문지: [https://docs.google.com/forms/d/e/1FAIpQLSe9lTRW_YWo5CeBO55Vtw9FMnIrsrvCScCv-MzbhbNUAT-56A/viewform](https://docs.google.com/forms/d/e/1FAIpQLSe9lTRW_YWo5CeBO55Vtw9FMnIrsrvCScCv-MzbhbNUAT-56A/viewform)
