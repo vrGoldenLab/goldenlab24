@@ -49,4 +49,46 @@ def calcu2(a,b): #2개의 매개변수
 print(calcu2(10,8.7))  #2개의 인수 전달  튜플로 반환   
 r1,r2,r4,r4 = (calcu2(10,8.7))  #2개의 인수 전달 4개의 변수로 반환  
 ```
+* 튜플로 매개변수 받기 *
+```
+def t_print(x, y, *rest):        # 인수앞에 * 추가
+    print(x, y, rest)
+t_print(1,2,3,4,5,6,7,8)
+```
+* 딕셔너리로 매개변수 받기 **
+```
+# 방법 1
+def d_print(**dic) :
+    for key, value in dic.items() :
+        print(f"{key} : {value}")
 
+dic1 = {'a' :1, 'b':2, 'c':3}
+d_print(**dic1)
+```
+* 변수의 유효범위
+       함수내부에서 생성된 변수는 함수밖에서 사용할 수 없습니다.
+       외부에서 사용할 시에는 global을 사용합니다.
+```
+def a_test():
+       obj = 10
+obj = 20
+a_test()
+print('1',obj)
+def b_test():
+       global obj
+       obj = 10
+obj = 20
+b_test()
+print('2',obj)
+
+```
+* 객체 고유의 함수 활용
+       문자열이나 리스트 등도 스스로 사용할 수 있는 함수가 있습니다.
+       이를 메소드(Method)라고 합니다.  
+       메소드도 함수이므로 호출하는 방식은 같으나 누가 호출하는지를 명시해야 합니다.
+```
+t1 = 'aaa'
+t2 = 'bbbbb'
+print(t1.upper())
+print(t2.title())
+```
