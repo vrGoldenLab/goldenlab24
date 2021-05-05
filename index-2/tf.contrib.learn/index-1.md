@@ -10,7 +10,7 @@
 > 3과 5의 공배수는 '뽀쏭'을 출력합니다.  
 
 추가 조건> 
-10개 데이터 출력 후에 줄바꿈
+10개 데이터 출력 후에 줄바꿈을 합니다.
 
 
 ## colab 코딩 실습 [https://colab.research.google.com/drive/1rEljqcIiz191hJQepJMTmWST9UdJyE5s?usp=sharing](https://colab.research.google.com/drive/1rEljqcIiz191hJQepJMTmWST9UdJyE5s?usp=sharing)
