@@ -95,3 +95,4 @@ t2 = 'bbbbb'
 print(t1.upper())
 print(t2.title())
 ```
+colab으로 실습하기 함수 [https://colab.research.google.com/drive/1U0JXeHcd2cBpGOUaRyrDnHPLqq82xUio?usp=sharing](https://colab.research.google.com/drive/1U0JXeHcd2cBpGOUaRyrDnHPLqq82xUio?usp=sharing)
