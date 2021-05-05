@@ -43,4 +43,103 @@ print(cal_test) #변수 num1을 호출해 참조하여 출력
 기준참조[https://www.python.org/dev/peps/pep-0008/#id34](https://www.python.org/dev/peps/pep-0008/#id34)
 
 
+## 1.숫자형 
+정수: 소숫점이 없는 숫자.자료형명 int
+실수: 소숫점이 있는 숫자. 자료형명 float
+```
+a = 1
+b = 1.0
+c = 00.00310
+d = .554
+e = 15.
+print(a,b,c,d,e,sep='   ')
+print(a*b,c/d,(e-3)*d,sep='   ')
+
+# 실수값에 영향이 없는 0은 제거된다.
+# 산술연산자 +,-,*,/ 사용 가능
+# 나눗셈을 제외한 정수간 계산의 결과값은 정수,정수와 실수 간 계산값은 실수
+```
+### 산술연산자
+
+*  사칙연산자 +, -, * 
+*  제곱을 나타내는 **  
+*  나머지를 산출하는 % (Modulus),   
+*  나누기에 소숫점 이하를 버리는 // 연산자(Floor Division) 
+ 
+### 비교연산자  
+
+* 관계연산자로도 불리운다
+* 등호(==), 같지 않음(!=), 부등호(<, >, <=, >=) 등이 있다.
+
+```
+#제자리 연산:변수에서 값을 꺼낸 연산 후 그 결과를 원래의 변수에 다시 저장 
+num1 = 100
+num1 = num1 + 100
+num1 += 100 
+print(num1)
+```
+```
+# 제자리 연산자
+num2 = 100
+num3 = 200
+num2 += num3   # num2 = num2 + num3
+print(num2)
+num2 -= num3   # num2 = num2 - num3
+print(num2)
+num2 *= num3   # num2 = num2 * num3
+print(num2)
+```
+## 2.문자열
+
+### 문자열은 텍스트의 기본 자료형
+
+문자를 사슬(string)처럼 나영한 값, 자료형명 str  
+변수명이나 함수명과 구분하기 위해 따옴표로 열고 닫아 생성합니다.
+
+문자열 내의 특수키  
+
+\'   => '
+\"   => "
+\\   => \
+\n   => 줄바꿈(newline), enter
+\t   => 줄맞춤(intent),tap  
+
+```
+# '''로 문자열을 열고 닫을때
+# \n없이 enter로 줄바꿈,\',\"없이 따옴표 사용 가능
+print('''{
+    마크다운 전환: ctrl + m m 
+    코드로 전환: ctrl + m y 
+    " 사용 가능  " '  '
+}''')
+```  
+### 문자열에서 사용되는 함수  
+
+* join : 문자열을 원하는 글자로 더한다.
+* split : 문자열을 원하는 글자로 나눈다.
+* strip : 문자열 앞뒤의 공백을 지운다. 문자열 내부의 공백은 지우지 않는다.
+* replace : 문자열의 특정 글자를 다른 글자로 바꾼다.
+* in : 문자열 안에 해당 글자가 있는지 확인
+* not in : 문자열 안에 해당 글자가 없는지 확인 
+* count : 특정 글자가 문자열에 몇번 사용되었는지 확인 
+* find : 문자열에서 특정 글자의 위치정보 확인
+* capitalize : 문자열의 첫 글자를 대문자로 변환
+* lower : 모든 글자를 소문자로 변환
+* upper: 모든 글자를 대문자로 변환
+* starstwith : 해당 문자열이 특정 글자로 시작되는지 확인
+* endswith : 해당 문자열이 특정 글자로 끝나늕 확인
+
+## 3. bool 
+주어진 조건 안에서 참,거짓을 판단해서 결과를 담는 자료형 값 True,False  
+### 논리연산자
+
+* 조건식과 조건식을 연결하는 연산자 
+        논리합 => a and b : a나 b 모두 참일때만 참 
+        논리곱 => a or b : a나 b 중 하나만 참이어도 참
+        부정   => not a : a가 참이면 거짓,거짓이면 참
+
+> colab 코딩 실습: [https://colab.research.google.com/drive/1vldvHtlau8-_RByxLpMbd2LwXNJiNzGO?usp=sharing](https://colab.research.google.com/drive/1vldvHtlau8-_RByxLpMbd2LwXNJiNzGO?usp=sharing)
+
+
+
 
