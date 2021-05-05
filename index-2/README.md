@@ -68,6 +68,6 @@ for는 반복할 횟수가 정해졌을때 while은 반복할 횟수가 정해�
 
 ## 오늘의 코딩
 
-
+[튜토리얼 보기](undefined/index-7.md)
 [코딩과제제출](https://forms.gle/9MdpUiMauamoSEb97)
 
