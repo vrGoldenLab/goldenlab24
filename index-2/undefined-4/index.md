@@ -17,5 +17,6 @@ print('체력은 {0}! {1}세의 신체연령에 신기하게도  정신연령은
 print('사랑스러운 {0}님 이시네요'.format(a))
 ```
 
-> colab 작성: [https://colab.research.google.com/drive/1Kr_vFoXbZLNpSyJC8sYMmtpHxsKOpfBe?usp=sharing](https://colab.research.google.com/drive/1Kr_vFoXbZLNpSyJC8sYMmtpHxsKOpfBe?usp=sharing)
+> colab 작성: [https://colab.research.google.com/drive/1Kr_vFoXbZLNpSyJC8sYMmtpHxsKOpfBe?usp=sharing](https://colab.research.google.com/drive/1Kr_vFoXbZLNpSyJC8sYMmtpHxsKOpfBe?usp=sharing)  
+>
 > 과제 제출 설문지: [https://docs.google.com/forms/d/e/1FAIpQLSe9lTRW_YWo5CeBO55Vtw9FMnIrsrvCScCv-MzbhbNUAT-56A/viewform](https://docs.google.com/forms/d/e/1FAIpQLSe9lTRW_YWo5CeBO55Vtw9FMnIrsrvCScCv-MzbhbNUAT-56A/viewform)
