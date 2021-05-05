@@ -23,4 +23,12 @@
 * 프로그램 코드 작성 관례에 따른다
 * 순차적 실행,조건문(if,else,elif),반복문(for,while) 사용하여 알고리즘을 표현
 
+> 예> 판매세가 포함된 물건 값 계산하기
+> 1. get price of item \\ 물건 값 투입하기
+> 2. get sales tax rate \\ 세금 할인율 투입하기
+> 3. sales tax = price of item times sales tax rate \\ 판매세 = 물건 값 * 세금율
+> 4. final price = price of item plus sales tax \\ 총합 = 총합 + 판매세
+> 5. display final price \\ 총합 표시하기
+> 6. halt \\\\ 종료
+
 > sudo 코드 작성예시: [https://colab.research.google.com/drive/1pP4CA1_LTeZo8YJTDSptw6uLkaZkek-_?usp=sharing](https://colab.research.google.com/drive/1pP4CA1_LTeZo8YJTDSptw6uLkaZkek-_?usp=sharing)
