@@ -12,9 +12,10 @@
 * 같은 코드를 계속 쓰지 않음으로써 프로그램의 용량을 줄일 수 있고, 다른 부분이나 다른 프로그램에서 같은 코드를 사용할 수 있습니다.
 * 함수의 기능과 내부 구현을 분리할 수 있습니다.
 #### 3. 파이썬에서 함수 구현
-* 함수 정의 키워드 def()
+* 함수 정의 키워드 def()  
+
        def 함수명(매개변수);
-              함수가 수핸할 일
+              함수가 수행할 일
               return 함수가 반환할 객체
 ```
 def doubler(a):  # 함수,매개변수 정의
@@ -26,26 +27,26 @@ doubler(11)      # 함수 호출
             
 ```
 def reapple():
-       a= 'apple'
-       return a
+    a= 'apple'
+    return a
 text1 = reapple()
 
 ```
 * 복수의 매개변수 구성 
 ```
 def calcu1(a,b): #2개의 매개변수
-       c = a + b 
-       return c
+    c = a + b 
+    return c
 print(calcu1(10,8.7))  #2개의 인수 전달     
 ```
 * 복수의 return값
 ```
 def calcu2(a,b): #2개의 매개변수
-       result1 = a + b 
-       result2 = a - b 
-       result3 = a / b 
-       result4 = a * b 
-       return result1,result2,result3,result4
+    result1 = a + b 
+    result2 = a - b 
+    result3 = a / b 
+    result4 = a * b 
+    return result1,result2,result3,result4
 print(calcu2(10,8.7))  #2개의 인수 전달  튜플로 반환   
 r1,r2,r4,r4 = (calcu2(10,8.7))  #2개의 인수 전달 4개의 변수로 반환  
 ```
@@ -70,13 +71,14 @@ d_print(**dic1)
        외부에서 사용할 시에는 global을 사용합니다.
 ```
 def a_test():
-       obj = 10
+    obj = 10
 obj = 20
 a_test()
 print('1',obj)
+
 def b_test():
-       global obj
-       obj = 10
+    global obj
+    obj = 10
 obj = 20
 b_test()
 print('2',obj)
