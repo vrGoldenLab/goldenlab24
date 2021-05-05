@@ -15,6 +15,7 @@
     * [4.조건문 if,elif,else](index-2/undefined/index-3.md)
     * [5.반복문 while](index-2/undefined/index-3.md)
     * [6.함수](index-2/undefined/index-3.md)
+    * [7.import 사용법](index-2/undefined/index-3.md)
     * [오늘의 코딩](index-2/undefined/index-3.md) 
   * [코딩의 기초 연습](index-2/tf.contrib.learn/README.md)
     * [입출력으로 기사만들기](index-2/tf.contrib.learn/index.md)
