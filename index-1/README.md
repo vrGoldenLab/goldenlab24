@@ -88,7 +88,7 @@ Authorization Code 입력 부분에 붙여넣기 후 엔터를 치면 연결됩�
 *   셀 분할 : (분기를 원하는 부분에 커서를 지정 후), Ctrl + Shift + -
 *   코드가 오래 실행되어 멈추고 싶은경우 : Ctrl+ M + I
 
-##**`6.Jupyter Notebook`** 
+## **`6.Jupyter Notebook`** 
 
 * IPython Shell 브라우저 기반 그래픽 인터페이스
 * 파이썬과 IPython문장 실행
