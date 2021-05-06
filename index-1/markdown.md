@@ -75,29 +75,29 @@ This is a Title
 ### 4. 순서없는 목록  
 * 글머리 기호: *, +, - 지원  
 ```
-* 빨강
- * 녹색
-   * 파랑
+* 아침 뭐 먹지?
+  * 점심 뭐 먹지?
+    * 저녁 뭐 먹지?
  
-+ 빨강
- + 녹색
-   + 파랑
++ 아침 뭐 먹지?
+  + 점심 뭐 먹지?
+    + 저녁 뭐 먹지?
  
-- 빨강
-   - 녹색
-    - 파랑
+- 아침 뭐 먹지?
+   - 점심 뭐 먹지?
+     - 저녁 뭐 먹지?
 ```
-* 빨강
- * 녹색
-   * 파랑
+* 아침 뭐 먹지?
+  * 점심 뭐 먹지?
+   * 저녁 뭐 먹지?
  
-+ 빨강
- + 녹색
-   + 파랑
++ 아침 뭐 먹지?
+ + 점심 뭐 먹지?
+   + 저녁 뭐 먹지?
  
-- 빨강
-   - 녹색
-    - 파랑
+- 아침 뭐 먹지?
+   - 점심 뭐 먹지?
+    - 저녁 뭐 먹지?
 
 ### 5.  구분선 
 
@@ -130,3 +130,5 @@ This is a Title
 
 ### 7.  줄바꿈
   * 3칸 이상 띄어쓰기( )를 하면 줄이 바뀐다.
+ 
+* colab `markdown` 연습 [https://colab.research.google.com/drive/1PI_yk4wxO7yR-mg-K_MqxMO3UY57Hv5J?usp=sharing](https://colab.research.google.com/drive/1PI_yk4wxO7yR-mg-K_MqxMO3UY57Hv5J?usp=sharing)
