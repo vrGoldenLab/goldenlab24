@@ -15,16 +15,16 @@ colab을 실제로 작동시켜 봅시다!
 * Git,Github와 쉽게 연동  
 
    
- ### 구글에서 만든 Colaboratory는 클라우드 기반의 개발환경
- 
- 
-   구글의 CPU, RAM, GPU를 사용해서 Jupiter Notebook과 같은 환경을 구성
-   Colaboratory는 Google 리서치팀에서 개발한 제품입니다.
-   Colab을 사용하면 누구나 브라우저를 통해 임의의 Python 코드를 작성하고 실행할 수 있습니다.  
-   Colab은 특히 머신러닝, 데이터 분석 및 교육에 적합합니다. 
-   Colab은 설정 없이도 사용 가능한 호스팅 Jupyter 메모장 서비스로, GPU를 포함한 컴퓨팅 리소스를 무료로 제공합니다.  
- 
- ### colab 주의 사항  
+### 구글에서 만든 Colaboratory는 클라우드 기반의 개발환경  
+``` 
+구글의 CPU, RAM, GPU를 사용해서 Jupiter Notebook과 같은 환경을 구성
+Colaboratory는 Google 리서치팀에서 개발한 제품입니다.
+Colab을 사용하면 누구나 브라우저를 통해 임의의 Python 코드를 작성하고 실행할 수 있습니다.  
+Colab은 특히 머신러닝, 데이터 분석 및 교육에 적합합니다. 
+Colab은 설정 없이도 사용 가능한 호스팅 Jupyter 메모장 서비스로, GPU를 포함한 컴퓨팅 리소스를 무료로 제공합니다.  
+```
+
+### colab 주의 사항  
   
 * 구글 계정 필요
 * 최대 세션 유지 시간 존재(12시간)
@@ -42,79 +42,53 @@ colab을 실제로 작동시켜 봅시다!
   
 
 ## **3. GPU,TPU 사용하기**  
+런타임 유형 변경(Change runtime type) 필요  
+None : CPU만 사용  
+GPU:하드웨어 가속으로 GPU(graphics processing unit)사용  
+TPU:하드웨어 가속으로 TPU(Tensor Processing Unit)사용
+COLAB 상단 선택메뉴 중 런타임 -> 런타임 유형 변경에서 사용합니다.
+하드웨어 가속기 -> GPU,TPU 선택 후 저장하면 됩니다.
+클라우드 환경이고 구글의 무료 자원을 사용하기 때문에 GPU,TPU를 무한정 사용할 수는 없습니다. Keras나 Tensorflow등을 사용할 때 사용합니다.
 
-  런타임 유형 변경(Change runtime type) 필요  
+## **4. Google `Drive와 연결`**
+### Drive Mount
 
-  None : CPU만 사용  
-  GPU:하드웨어 가속으로 GPU(graphics processing unit)사용  
-  TPU:하드웨어 가속으로 TPU(Tensor Processing Unit)사용
-  COLAB 상단 선택메뉴 중 런타임 -> 런타임 유형 변경에서 사용합니다.
+* 방법 1  
+좌측의 메뉴에서 폴더 모양을 선택   
+드라이브 마운트 버튼을 클릭합니다.  
+노트북이 google 드라이브 파일에 엑세스 허용 질문에 드라이브 연결을 선택합니다.  
+본인의 Google Drive 경로로 이동합니다.    
+ 
+* 방법 2
+구글드라이브 마운트 명령어를 입력합니다.  
+'''
+from google.colab import drive
+drive.mount('/content/drive')
+'''
 
-  하드웨어 가속기 -> GPU,TPU 선택 후 저장하면 됩니다.
+명령어 실행 후 화면에 표시된 링크로 접속합니다.  
+연결할 구글 아이디로 로그인을 하고 허용을 누릅니다  
+드라이브 마운트 허용코드를 복사합니다 (화면 코드옆 복사버튼 사용)  
+Authorization Code 입력 부분에 붙여넣기 후 엔터를 치면 연결됩니다  
 
-  클라우드 환경이고 구글의 무료 자원을 사용하기 때문에 GPU,TPU를 무한정 사용할 수는 없습니다. Keras나 Tensorflow등을 사용할 때 사용합니다.
-
-## **4. Google Drive와 연결**
-  ### Drive Mount
-
-    좌측의 메뉴에서 폴더 모양을 선택   
-
-    드라이브 마운트 버튼을 클릭합니다  
-
-    노트북이 google 드라이브 파일에 엑세스 허용 질문에 드라이브 연결을 선택합니다  
-
-    본인의 Google Drive 경로로 이동합니다  
-  
-  
-  #### 방법 2
-
-    구글드라이브 마운트 명령어를 입력합니다  
-    
-    '''
-       from google.colab import drive
-       drive.mount('/content/drive')
-    '''
-
-    명령어 실행 후 화면에 표시된 링크로 접속합니다  
-
-    연결할 구글 아이디로 로그인을 하고 허용을 누릅니다  
-
-    드라이브 마운트 허용코드를 복사합니다 (화면 코드옆 복사버튼 사용)  
-
-    Authorization Code 입력 부분에 붙여넣기 후 엔터를 치면 연결됩니다  
-
-##**5.코랩 단축키**(ctrl+m,h)
+## **5.코랩 `단축키`**(ctrl+m,h)
 
 *   선택된 셀을 실행 : Ctrl + Enter
 *   선택된 셀을 실행 후 다음 셀로 포커스 이동 : Shift + Enter
-
 *   실행 후 다음줄로 이동 : Alt + Enter
 *   선택모드에서 화살표 방향키 : 셀 포커스를 위 아래로 움직일 수 있음
-
-
 *   마크다운으로 전환 : Ctrl + M M
-
 *   코드로 전환 : Ctrl + M Y
 *   저장 : Ctrl + S
-
-
 *   코드셀에 줄번호 부여 : Ctrl + M L
-
-
 *   바로 윗줄에 셀 생성 : Ctrl + M A
-
 *   바로 아랫줄에 셀 생성 : Ctrl + M B
-
 *   셀 삭제 : Ctrl + M D
 *   셀 병합 : (shift를 누른 상태에서 병합을 원하는 셀들을 한번에 다중 선택 후), Shift + M
-
-
 *   셀 분할 : (분기를 원하는 부분에 커서를 지정 후), Ctrl + Shift + -
-
-
 *   코드가 오래 실행되어 멈추고 싶은경우 : Ctrl+ M + I
 
-##**6.Jupyter Notebook** 
+##**`6.Jupyter Notebook`** 
 
 * IPython Shell 브라우저 기반 그래픽 인터페이스
 * 파이썬과 IPython문장 실행
