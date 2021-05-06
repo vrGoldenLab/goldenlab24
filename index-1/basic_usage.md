@@ -4,7 +4,7 @@
 
 Colab을 사용하기 위해 먼저 Colab환경을 확인해 봅시다.  
 
-## Colab 서버 스펙 확인
+### Colab 서버 스펙 확인
 
 ```python
 
@@ -64,4 +64,5 @@ import pandas as pd
 df = pd.read_csv("./MyDrive/test/test.csv")
 
 ```
-### colab link [https://colab.research.google.com/drive/1sj2VBfqcuaCjV_eqMybXCoe11oWKo4Wc?usp=sharing](https://colab.research.google.com/drive/1sj2VBfqcuaCjV_eqMybXCoe11oWKo4Wc?usp=sharing)
+#### `colab link` [https://colab.research.google.com/drive/1sj2VBfqcuaCjV_eqMybXCoe11oWKo4Wc?usp=sharing](https://colab.research.google.com/drive/1sj2VBfqcuaCjV_eqMybXCoe11oWKo4Wc?usp=sharing)
+#### `colab link' [https://colab.research.google.com/drive/1ogPF9sLyoJOBEygYnhtb5cJcvO0KEAcf?usp=sharing](https://colab.research.google.com/drive/1ogPF9sLyoJOBEygYnhtb5cJcvO0KEAcf?usp=sharing)
