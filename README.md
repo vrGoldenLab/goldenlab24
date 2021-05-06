@@ -1,4 +1,4 @@
-# **GoldenLab Python**
+# **GoldenLab Python** :memo:
 
 
 1. **Colab을 사용하여 코드 개발 환경을 만듭니다.**   
