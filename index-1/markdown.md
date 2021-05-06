@@ -127,7 +127,7 @@ This is a Title
 [Google](https://google.com, "google link") 
 
 ### 7.  줄바꿈
-  * 3칸 이상 띄어쓰기( )를 하면 줄이 바뀐다.
+  * 문장 마지막에 2칸 이상 띄어쓰기(' ') 를 하면 줄이 바뀝니다.
 
 ---
 ##### * colab `markdown` 연습 [https://colab.research.google.com/drive/1PI_yk4wxO7yR-mg-K_MqxMO3UY57Hv5J?usp=sharing](https://colab.research.google.com/drive/1PI_yk4wxO7yR-mg-K_MqxMO3UY57Hv5J?usp=sharing)
