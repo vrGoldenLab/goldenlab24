@@ -5,8 +5,6 @@
   일반 텍스트로 서식이 있는 문서를 작성하는 데 사용되며, 일반 마크업 언어에 비해 문법이 쉽고 간단한 것이 특징이다.
   HTML과 리치 텍스트(RTF) 등 서식 문서로 쉽게 변환되기 때문에 응용 소프트웨어와 함께 배포되는 README 파일이나 온라인 게시물 등에 많이 사용된다.
 
-  마크다운 위키백과 [https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4](https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4)  
-
 ### 1. 제목 표시 
 
 * 큰제목
@@ -131,4 +129,6 @@ This is a Title
 ### 7.  줄바꿈
   * 3칸 이상 띄어쓰기( )를 하면 줄이 바뀐다.
  
-* colab `markdown` 연습 [https://colab.research.google.com/drive/1PI_yk4wxO7yR-mg-K_MqxMO3UY57Hv5J?usp=sharing](https://colab.research.google.com/drive/1PI_yk4wxO7yR-mg-K_MqxMO3UY57Hv5J?usp=sharing)
+##### * colab `markdown` 연습 [https://colab.research.google.com/drive/1PI_yk4wxO7yR-mg-K_MqxMO3UY57Hv5J?usp=sharing](https://colab.research.google.com/drive/1PI_yk4wxO7yR-mg-K_MqxMO3UY57Hv5J?usp=sharing)
+##### * 마크다운 위키백과 [https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4](https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4)  
+
