@@ -9,12 +9,12 @@
 
 ## 1. 깃허브(github) 계정 만들기  
 
-## 2. 저장소(Repository) 생성 
+## 2. 저장소(`Repository`) 생성 
 1. 오른쪽 상단의 '+' 버튼으로 New repository를 선택합니다.
 2. repository 이름을 입력하고 간단히 Description을 작성합니다.
 3. Initialize this repository with a README를 체크, Creatr repository 버튼을 클릭
 
-## 3. 브랜치(Branch)생성하기
+## 3. 브랜치(`Branch`)생성하기
 하나의 저장소의 또 다른 버젼입니다.
 브랜치를 만드는 순간 master는 카피 혹은 스냅샷이 생성됩니다. 
 1. 좌측 상단의 Branch:master를 클릭합니다.
@@ -24,14 +24,14 @@
 6. 하단의 Commit Message를 적고 Commit 
 7. 수정사항의 발생하였으로 Pull요청이 가능해 졌습니다.
 
-## 4. Pull 요청하기
+## 4. `Pull` 요청하기
 1. 상단의 Pull request탭을 선택하고 하단 New pull request 버튼을 클릭합니다.  
 2. 상단 compare:edit-readme 선택하고 변경사항을 확인합니다. (변경사항은 녹색,빠진 것은 빨강색으로 표시)
 3. Create Pull request를 클릭
 4. Open a pull request에서 요청사항 설명을 적고 Create pull request 클릭
 
 ## 5. Mearge 
-1. Mearge pull request를 클릭합니다.
+1. `Mearge` pull request를 클릭합니다.
 2. Confirm mearge를 클릭합니다.
 3. 병합이 완료되어 branch는 필요없으므로 Delete Branch를 클릭합니다. 
 
