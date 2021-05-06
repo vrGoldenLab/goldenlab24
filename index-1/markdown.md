@@ -128,7 +128,8 @@ This is a Title
 
 ### 7.  줄바꿈
   * 3칸 이상 띄어쓰기( )를 하면 줄이 바뀐다.
- 
+
+---
 ##### * colab `markdown` 연습 [https://colab.research.google.com/drive/1PI_yk4wxO7yR-mg-K_MqxMO3UY57Hv5J?usp=sharing](https://colab.research.google.com/drive/1PI_yk4wxO7yR-mg-K_MqxMO3UY57Hv5J?usp=sharing)
 ##### * 마크다운 위키백과 [https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4](https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4)  
 
