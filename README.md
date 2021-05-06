@@ -1,7 +1,7 @@
 # **GoldenLab Python** :memo:
 
 
-:white_check_mark: **Colab을 사용하여 코드 개발 환경을 만듭니다.**   
+:+1: **Colab을 사용하여 코드 개발 환경을 만듭니다.**   
 
    Colab을 사용하면 누구나 브라우저를 통해 임의의 Python 코드를 작성하고 실행할 수 있습니다.    
    Colab은 특히 머신러닝, 데이터 분석 및 교육에 적합합니다. 
