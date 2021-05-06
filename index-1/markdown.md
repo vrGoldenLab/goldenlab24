@@ -7,61 +7,61 @@
 
   마크다운 위키백과 [https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4](https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4)  
 
-1. 제목 표시 
+### 1. 제목 표시 
 
-  * 큰제목
-  ```
-     This is a Title
-     ================
-  ```
-     This is a Title
-     ================
+* 큰제목
+```
+This is a Title
+================
+```
+This is a Title
+================
+
  
- * 작은 제목
- ```
-    This is a Title
-    -----------------
- ```
-    This is a Title 
-    -----------------
+* 작은 제목
+```
+This is a Title
+-----------------
+```
+This is a Title 
+-----------------    
     
 * 말머리 표기  
 ```
-  # This is a H1
-  ## This is a H2
-  ### This is a H3
-  #### This is a H4
-  ##### This is a H5
-  ###### This is a H6  
+# This is a H1
+## This is a H2
+### This is a H3
+#### This is a H4
+##### This is a H5
+###### This is a H6  
 ``` 
-  # This is a H1
-  ## This is a H2
-  ### This is a H3
-  #### This is a H4
-  ##### This is a H5
-  ###### This is a H6  
+# This is a H1
+## This is a H2
+### This is a H3
+#### This is a H4
+##### This is a H5
+###### This is a H6  
 
-2. 블록
+### 2. 블록
 ```
-  > This is a first blockqute.
-  >    > This is a second blockqute.
-  >    >    > This is a third blockqute. 
+> This is a first blockqute.
+>    > This is a second blockqute.
+>    >    > This is a third blockqute. 
 ```
-  > This is a first blockqute.
-  >    > This is a second blockqute.
-  >    >    > This is a third blockqute.  
+> This is a first blockqute.
+>    > This is a second blockqute.
+>    >    > This is a third blockqute.  
  
-3.  순서 있는 목록  
-
- > 숫자와 점을 사용
+### 3.  순서 있는 목록  
+* 숫자와 점을 사용
 ```
-    1. 첫번째
-    2. 두번째
-    3. 세번째
+1. 첫번째
+2. 두번째
+3. 세번째
 ```   
-    1. 첫번째
-    2. 두번째
-    3. 세번째
+1. 첫번째
+2. 두번째
+3. 세번째
 ```
 첫번째
 두번째
@@ -72,8 +72,8 @@
 세번째
  
 
-4. 순서없는 목록
-    글머리 기호: *, +, - 지원
+### 4. 순서없는 목록  
+* 글머리 기호: *, +, - 지원  
 ```
 * 빨강
  * 녹색
@@ -99,7 +99,7 @@
    - 녹색
     - 파랑
 
-5.  구분선 
+### 5.  구분선 
 
 ```
 * * *
@@ -120,7 +120,7 @@
 - - -
 --------------------------------------  
 
-6.  링크
+### 6.  링크
 ```
 [링크 텍스트](https://)   
 [Google](https://google.com, "google link") 
@@ -128,5 +128,5 @@
 [링크 텍스트](https://)   
 [Google](https://google.com, "google link") 
 
-7.  줄바꿈
+### 7.  줄바꿈
   * 3칸 이상 띄어쓰기( )를 하면 줄이 바뀐다.
