@@ -1,11 +1,25 @@
 # 개요
 
-텐서플로우\(TensorFlow\)는 그래프를 설계하고 실행하기 위해 여러 개발언어에서 사용 가능한 API들을 가지고 있습니다. 파이썬 API는 현재 가장 완벽하며 사용하기 쉽고, 안드로이드와 같은 모바일 기기에 배포하는 것을 지원합니다. 하지만 C++ API가 그래프를 실행하는데 있어 더 성능이 뛰어날 수 있습니다.
+## 깃허브(GitHub)란 무엇인가?
+깃허브는 버전 관리와 협업을 위한 코드 호스팅 플랫폼입니다.  
+깃허브를 사용하면 다른 사람과 프로젝트 작업을 할 수 있습니다.  
 
-시간이 지나게 되면, 우리는 텐서플로우 커뮤니티 유저들이 Go, Java, Javascript, Lua, R 같은 언어 에서도 프론트엔드 개발할 수 있기를 바랍니다. [SWIG](http://swig.org)을 사용한다면, 비교적 쉽게 텐서플로우 인터페이스를 가장 좋아하는 언어로 개발할 수 있습니다.
+* 분산 버전 관리 툴인 깃(Git)을 사용하는 프로젝트를 지원하는 웹호스팅 서비스.
+* 깃(Git)이 텍스트 명령어 입력 방식인데 반해, 깃허브는 그래픽 유저 인터페이스(GUI)를 제공.
 
-노트: 대부분의 실제 사용사례는 Machanics 탭에 수록되어 있으며, 특정 언어 API에 제한되어 있지 않은 추가적인 문서는 Resources 탭에서 확인하실 수 있습니다.
+## 1.깃허브(github) 계정 만들기  
 
-* [Python API](index-1/)
-* [C++ API](index-2/)
+## 2.저장소(Repository) 생성 
+1. 오른쪽 상단의 '+' 버튼으로 New repository를 선택합니다.
+2. repository 이름을 입력하고 간단히 Description을 작성합니다.
+3. Initialize this repository with a README를 체크, Creatr repository 버튼을 클릭
 
+## 3.브랜치(Branch)생성하기
+하나의 저장소의 또 다른 버젼입니다.
+브랜치를 만드는 순간 master는 카피 혹은 스냅샷이 생성됩니다. 
+1. 좌측 상단의 Branch:master를 클릭합니다.
+2. 'edit-readme'라고 이름을 작성하고 바로 밑의 Create Branch:edit-readme를 클릭합니다.
+4. 상단의 <>Code탭에서 branch edit-readme를 클릭합니다.
+5. branch edit-readme의 README파일을 수정합니다. (수정모드-우측의 연필아이콘 클릭)
+6. 하단의 Commit Message를 적고 Commit 
+7. 수정사항의 발생하였으
