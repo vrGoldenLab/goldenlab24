@@ -2,7 +2,7 @@
 
 colab을 실제로 작동시켜 봅시다!
 
-## **1. Colab이란?**
+### **1. Colab이란?**
 * 구글 클라우드 기반의 무료 개발 환경 서비스 
 * 환경 설정 및 실행까지 매우 빠른 환결
 * 딥러닝 실행이 가능한 고사양 환경 제공
@@ -15,7 +15,7 @@ colab을 실제로 작동시켜 봅시다!
 * Git,Github와 쉽게 연동  
 
    
-### 구글에서 만든 Colaboratory는 클라우드 기반의 개발환경  
+##### 구글에서 만든 Colaboratory는 클라우드 기반의 개발환경  
 ``` 
 구글의 CPU, RAM, GPU를 사용해서 Jupiter Notebook과 같은 환경을 구성
 Colaboratory는 Google 리서치팀에서 개발한 제품입니다.
@@ -24,7 +24,7 @@ Colab은 특히 머신러닝, 데이터 분석 및 교육에 적합합니다.
 Colab은 설정 없이도 사용 가능한 호스팅 Jupyter 메모장 서비스로, GPU를 포함한 컴퓨팅 리소스를 무료로 제공합니다.  
 ```
 
-### colab 주의 사항  
+##### colab 주의 사항  
   
 * 구글 계정 필요
 * 최대 세션 유지 시간 존재(12시간)
@@ -32,7 +32,7 @@ Colab은 설정 없이도 사용 가능한 호스팅 Jupyter 메모장 서비스
 * 소스코드는 구글 드라이브에  저장 
 
 
-## **2. Colab 연결하기**
+### **2. Colab 연결하기**
 
 *   구글 드라이브로 이동
 *   구글 드라이브내 마우스 오른쪽 클릭(새로만들기) -> 연결할 앱 더보기   
@@ -41,7 +41,7 @@ Colab은 설정 없이도 사용 가능한 호스팅 Jupyter 메모장 서비스
 *   다시 구글 드라이브로 돌아가 마우스 오른쪽버튼을 클릭(새로만들기)하면 Google Colaboratory를 확인 할 수 있습니다.  
   
 
-## **3. GPU,TPU 사용하기**  
+### **3. GPU,TPU 사용하기**  
 런타임 유형 변경(Change runtime type) 필요  
 None : CPU만 사용  
 GPU:하드웨어 가속으로 GPU(graphics processing unit)사용  
@@ -50,8 +50,8 @@ COLAB 상단 선택메뉴 중 런타임 -> 런타임 유형 변경에서 사용�
 하드웨어 가속기 -> GPU,TPU 선택 후 저장하면 됩니다.
 클라우드 환경이고 구글의 무료 자원을 사용하기 때문에 GPU,TPU를 무한정 사용할 수는 없습니다. Keras나 Tensorflow등을 사용할 때 사용합니다.
 
-## **4. Google `Drive`와 연결**
-### Drive Mount
+### **4. Google `Drive`와 연결**
+##### Drive Mount
 
 * 방법 1  
 좌측의 메뉴에서 폴더 모양을 선택   
@@ -71,7 +71,7 @@ drive.mount('/content/drive')
 드라이브 마운트 허용코드를 복사합니다 (화면 코드옆 복사버튼 사용)  
 Authorization Code 입력 부분에 붙여넣기 후 엔터를 치면 연결됩니다  
 
-## **5.코랩 `단축키`**(ctrl+m,h)
+### **5.코랩 `단축키`**(ctrl+m,h)
 
 *   선택된 셀을 실행 : Ctrl + Enter
 *   선택된 셀을 실행 후 다음 셀로 포커스 이동 : Shift + Enter
@@ -88,7 +88,7 @@ Authorization Code 입력 부분에 붙여넣기 후 엔터를 치면 연결됩�
 *   셀 분할 : (분기를 원하는 부분에 커서를 지정 후), Ctrl + Shift + -
 *   코드가 오래 실행되어 멈추고 싶은경우 : Ctrl+ M + I
 
-## **`6.Jupyter Notebook`** 
+### **`6.Jupyter Notebook`** 
 
 * IPython Shell 브라우저 기반 그래픽 인터페이스
 * 파이썬과 IPython문장 실행
@@ -101,9 +101,10 @@ Authorization Code 입력 부분에 붙여넣기 후 엔터를 치면 연결됩�
 
 
  
-## Recommended Next Steps
+### Recommended Next Steps
 
 * [파이썬 다운로드 및 설치](os_setup.md)
 * [기본적인 사용법](basic_usage.md)
 * [파이썬](https://www.python.org/)
+
 
