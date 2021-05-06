@@ -56,10 +56,10 @@
   * 뷰어 : 블록으로 코딩하는 영역  
 
 ## 3. 테스트  
-1. 안드로이드폰에 MIT AI2 Companion앱을 설치합니다.
+1. 안드로이드폰에 MIT2 AI Companion앱을 설치합니다.
 2. 컴퓨터와 폰이 같은 와이파이 상태인지 확인합니다.
 3. 핸드폰 설정에서 개발자 모드를 켭니다.
-4. 앱인벤터 화면에서 Connect -> AI Companion을 선택하고 폰에서 `MIT2 AI Companion'앱을 실행 
+4. 앱인벤터 화면에서 Connect -> AI Companion을 선택하고 폰에서 `MIT2 AI Companion`앱을 실행 
 5. 앱인벤터 화면에 나타난 QR코드가 나타납니다
 6. `MIT2 AI Companion'의 `scan QR code`버튼을 누르고 컴퓨터의 QR코드를 스캔합니다.
 7. 앱인벤터에서 개발한 앱이 실행됩니다.
