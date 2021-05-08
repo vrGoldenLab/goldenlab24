@@ -49,7 +49,7 @@
     * [github](index-3/index.md)
     * [colab과 github 연동](index-3/index-1.md)
     * [github로 블로그 만들기](index-3/index-2.md)
-    * [데이터 사이언스](index-3/index-3.md)
+    * [RPA소개와 데이터 사이언스 맛보기](index-3/index-3.md)
     * [앱만들기](index-3/index-4.md)
   * [파이썬데이터 활용](index-3/index-1/README.md)    
     * [파이썬 파일 처리 ](index-3/index-1/index-1.md)
