@@ -61,7 +61,7 @@
     * [RPA 프로젝트 소개](index-3/index-5.md)
   * [파이썬데이터 활용](index-3/index-1/README.md)    
     * [파이썬 파일 처리 ](index-3/index-1/index-1.md)
-    * [파이썬 데이타 처리](index-3/index-1/index-2.md)
+    * [파이썬 데이터 처리](index-3/index-1/index-2.md)
     * [파이썬 알고리즘](index-3/index-1/index-3.md) 
     * [파이썬 크롤링 1](index-3/index-1/index-4.md)
     * [파이썬 크롤링 2](index-3/index-1/index-5.md)           
