@@ -7,8 +7,7 @@
   * [Colab환경확인](index-1/basic_usage.md)
   * [Markdown사용하기](index-1/markdown.md)
 * [골든랩 파이썬 기초](index-2/README.md)
-  * [코딩의 기초 형식](index-2/undefined/README.md)  
-  
+  * [코딩의 기초 형식](index-2/undefined/README.md)    
     * [1.변수](index-2/undefined/index.md)
     * [2.배열](index-2/undefined/index-1.md)
     * [3.반복문 for](index-2/undefined/index-2.md)
@@ -54,8 +53,7 @@
     * [파이썬 크롤링 1](index-3/index-1/index-3.md)
     * [파이썬 크롤링 2](index-3/index-1/index-4.md)
     * [파이썬 데이타 전처리](index-3/index-1/index-5.md)
-    * [파이썬 알고리즘](index-3/index-1/index-6.md)  
-      
+    * [파이썬 알고리즘](index-3/index-1/index-6.md)        
   * [조금 더 알아보는 코딩 활용](index-4/README.md)
     * [간단한 이미지 작업](index-4/bib.md)
     * [당신이 만들고 싶은 코드1](index-4/uses.md)
