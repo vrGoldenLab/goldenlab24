@@ -2,6 +2,7 @@
 
 * [GoldenLab Python](README.md)
 * [골든랩 파이썬 수업소개](index.md)
+* [수업일정안내](index-1/index.md)
 * [Colab시작하기](index-1/README.md)
   * [파이썬설치하기](index-1/os_setup.md)
   * [Colab환경확인](index-1/basic_usage.md)
