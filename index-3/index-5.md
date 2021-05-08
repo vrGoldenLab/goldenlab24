@@ -1,4 +1,4 @@
-# RPA (Robotic peocess automation)  
+# RPA (Robotic pocess automation)  
 RPA(로봇 프로세스 자동화)는 이전에는 사람이 하던 반복적이고 지루한 업무를 소프트웨어 로봇이 대신하는 것입니다.  
 기존의 Robot이 공장 생산 라인의 실체적 기계였다면 RPA는 Software로 구현된 사무직을 위한 Robot으로 이해하면 쉽습니다. 
 대부분의 RPA 툴은 개별 워크스테이션에서 실행됩니다. 간단한 프로그램을 사용해 스프레드시트 자료로 데이터를 입력하고 메일을 발송하는 것과 같은 반복 태스크를 수행합니다.  
