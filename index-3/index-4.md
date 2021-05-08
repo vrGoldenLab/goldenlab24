@@ -64,7 +64,7 @@
 3. 핸드폰 설정에서 개발자 모드를 켭니다.
 4. 앱인벤터 화면에서 Connect -> AI Companion을 선택하고 폰에서 `MIT2 AI Companion`앱을 실행 
 5. 앱인벤터 화면에 나타난 QR코드가 나타납니다
-6. `MIT2 AI Companion'의 `scan QR code`버튼을 누르고 컴퓨터의 QR코드를 스캔합니다.
+6. `MIT2 AI Companion`의 `scan QR code`버튼을 누르고 컴퓨터의 QR코드를 스캔합니다.
 7. 앱인벤터에서 개발한 앱이 실행됩니다.
 
 
