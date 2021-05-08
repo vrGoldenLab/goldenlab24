@@ -19,7 +19,7 @@ Github Pages를 활용하여 기술블로그를 운영하기 위해서는 몇 �
 fastpages 공식 레포지토리에서 Use this template 버튼을 클릭하고 새로운 레포지토리를 생성합니다. 
 이때, 레포지토리의 이름은 아무것이나 정해되 상관 없되, {계정명}.github.io는 피해야 합니다.  
 
-### 2. 새로운 Pull Request가 자동으로 생성  
+### 2. 새로운 Pull Request가 자동으로 생성
 “Initial Setup”이라는 새로운 Pull Request가 자동으로 생성된 것을 확인할 수 있습니다.  
 
 ### 3. PR 가이드  
@@ -30,7 +30,7 @@ fastpages 공식 레포지토리에서 Use this template 버튼을 클릭하고 
 앞서 생성한 Public key를 복사하여 붙여넣습니다. 이름은 아무렇게나 지정해도 된다고 합니다. 그리고 제일 아래 `Allow write access` 박스를 꼭 체크합니다.  
 * PR을 merge합니다. 이후 fastpages 블로그가 배포되는 과정은 Github actions에서 아래와 같이 확인할 수 있습니다.    
 
-### 4. 완료  
+### 4. 완료
 완료되면, {github username}.github.io/{레포지토리 이름} 에서 fastpages 기반의 블로그가 배포되었음을 확인할 수 있습니다.
 
 ---
