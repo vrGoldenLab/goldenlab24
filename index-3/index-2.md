@@ -14,14 +14,14 @@ Github Pages를 활용하여 기술블로그를 운영하기 위해서는 몇 �
 
 ## 만들기 
 
-1. fastpages 블로그용 레포지토리 생성
+### 1. fastpages 블로그용 레포지토리 생성
  fastpages 공식 레포지토리에서 Use this template 버튼을 클릭하고 새로운 레포지토리를 생성합니다. 
  이때, 레포지토리의 이름은 아무것이나 정해되 상관 없되, {계정명}.github.io는 피해야 합니다.  
 
-2. 새로운 Pull Request가 자동으로 생성
+### 2. 새로운 Pull Request가 자동으로 생성
  “Initial Setup”이라는 새로운 Pull Request가 자동으로 생성된 것을 확인할 수 있습니다.  
-
-3. PR 가이드  
+ 
+### 3. PR 가이드  
 * this utility (새탭으로 열기) 에서 prive key와 public 키를 생성합니다. 이때, 옵션은 RSA와 4069를 선택 후 “Generate SSH-Keys” 버튼을 클릭합니다.  
 * 두번째 주어진 링크에서 새 “New repository secret” 버튼을 클릭합니다. 
  Value 입력 칸에 앞서 생성한 Private key 전체를 복사하여 붙여넣습니다. Name 입력 칸에는 `SSH_DEPLOY_KEY`라고 입력하고 저장합니다.   
@@ -29,7 +29,7 @@ Github Pages를 활용하여 기술블로그를 운영하기 위해서는 몇 �
 앞서 생성한 Public key를 복사하여 붙여넣습니다. 이름은 아무렇게나 지정해도 된다고 합니다. 그리고 제일 아래 `Allow write access` 박스를 꼭 체크합니다.  
 * PR을 merge합니다. 이후 fastpages 블로그가 배포되는 과정은 Github actions에서 아래와 같이 확인할 수 있습니다.    
 
-4. 완료  
+### 4. 완료  
  완료되면, {github username}.github.io/{레포지토리 이름} 에서 fastpages 기반의 블로그가 배포되었음을 확인할 수 있습니다.
 
 ---
