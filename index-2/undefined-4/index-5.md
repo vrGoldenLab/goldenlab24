@@ -9,25 +9,3 @@
 * 터틀 명령어 링크: [https://python.flowdas.com/library/turtle.html](https://python.flowdas.com/library/turtle.html)
 
 코랩에서는 그래픽을 사용하기 위한 colab turtle 라이브러리를 사용해야 합니다.
-```
-!pip3 install ColabTurtle
-from ColabTurtle.Turtle import *
-import ColabTurtle.Turtle as a
-```
-1. 그리기 이동
-* 화면을 새로 고침
-* 색을 파랑으로 변경
-* 앞으로 100만큼 이동
-* 오른쪽으로 45도 회전
-* 색을 빨강으로 변경
-* 앞으로 50만큼 이동
-
-```
-a.initializeTurtle(initial_speed=5) 
-a.color('blue')
-a.forward(100)
-a.right(45)
-a.color('red')
-a.forward(50)
-```
-* colab 사용실습: [https://colab.research.google.com/drive/1Yq-JOQxNfNMMkfXWL1vRVBlQav-7QeKo?usp=sharing](https://colab.research.google.com/drive/1Yq-JOQxNfNMMkfXWL1vRVBlQav-7QeKo?usp=sharing)
