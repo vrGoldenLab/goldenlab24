@@ -6,7 +6,8 @@
  
 #### 2. **`웹포스팅`을 개발노트로 활용합니다.**  
  *  코랩 코드를 github에 사본으로 관리합니다. 
- * gitbook,git gist에 posting으로 포스팅합니다.   
+ * gitbook,git gist에 posting으로 포스팅합니다.  
+ * `fastpages`를 통하여 작성한 colab파일을 블로그로 제작합니다.
  
 #### 3. **`slack`을 사용하여 질문과 답변을 진행합니다.**  
  *  slack 골든랩에 초대메일을 통해 참여 가능합니다.  
