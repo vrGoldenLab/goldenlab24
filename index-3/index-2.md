@@ -41,6 +41,6 @@ Github Pages를 활용하여 기술블로그를 운영하기 위해서는 몇 �
 * _pages/about.md: 블로그의 자기소개 페이지 About페이지의 내용을 작성하는 파일입니다. markdown 포맷으로 작성하면 됩니다.  
 * 포스트를 저장하는 디렉토리는 다음 종류에 따라 달라지므로 디렉토리를 구분해서 작성하시면 됩니다. (_notebooks/ , _posts/ , _word/ , images/ )
 
-##  YYYY-mm-dd-{아무 이름} 형태로 작성되어야 fastpages가 이를 인식하고 파일을 html로 변환합니다.  
+###  YYYY-mm-dd-{아무 이름} 형태로 작성되어야 fastpages가 이를 인식하고 파일을 html로 변환합니다.  
 
 
