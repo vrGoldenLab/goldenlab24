@@ -20,5 +20,6 @@ RPA의 가장 큰 장점 중 하나는 단순성입니다. 개발 기술이 없�
   * 업무담당자 - 정보소통광장에 접속하여 공개/비공개(공개보류)여부 문서 상태를 변경
   * 업무담당자 - 문서 생산자에게 상태 변경 완료 메일 전송  
 
+##### <프리젠테이션 자료>
 정보공개비공개 프로젝트 [https://docs.google.com/presentation/d/1NyQVdfmLmAuYBkAszHv5CCWGuQQ8STS16FBd85R-D_k/edit?usp=sharing](https://docs.google.com/presentation/d/1NyQVdfmLmAuYBkAszHv5CCWGuQQ8STS16FBd85R-D_k/edit?usp=sharing)
 
