@@ -6,6 +6,8 @@ Clone하기 위한 깃허브 repository의 url을 복사합니다.
 
 ## 2. 드라이브 마운트(Drive Mount)   
 이제 colab 페이지를 하나 열고 내 드라이브와 연동해봅시다.
+colab의 좌측 폴더 모양을 누르면 드라이브가 마운트됩니다.
+또는 아래의 명렬어를 코드셀에서 실행합니다.
 ```
 from google.colab import drive
 drive.mount('/content/drive')
@@ -27,3 +29,6 @@ cd "/content/drive/My Drive/작업폴더"
 구글 드라이브 폴더에 데이터가 잘 들어가 있는지 확인합니다.
 
 ### 이 방법을 알아둔다면, 로컬에서 클론하고 다시 드라이브로 옮길 필요 없이 코랩으로 실행하고픈 코드를 바로 바로 드라이브에 불러올 수 있습니다. 
+
+## < colab 실습 >
+깃허브와 colab 클론: [https://colab.research.google.com/drive/1gGpXU4X7IDk-J7Bog7d0xY3kbF8ZbDud?usp=sharing](https://colab.research.google.com/drive/1gGpXU4X7IDk-J7Bog7d0xY3kbF8ZbDud?usp=sharing)
