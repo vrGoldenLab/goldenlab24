@@ -26,9 +26,8 @@ f = open('test.txt', mode='wt', encoding='utf-8')
 f.write('파이썬으로 파일을 작성하고 있습니다.') # 20
 f.write('newline 문자로 개행해봅니다.\n') # 20
 f.write('개행이 잘되었나요?') #10
-f.close()
-```
-test.txt 파일을 읽어 확인합니다.  
+f.close()  
+```  
 3. 파일 읽기  
 mode는 mode='rt' 입니다.  
 read(글자수)로 파일을 읽습니다.  
