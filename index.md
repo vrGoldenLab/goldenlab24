@@ -11,7 +11,7 @@
 * 프로그램 언어의 사용 방법 만이 아니라  친근한 예제로 코드를 응용하고 새로운 코드도 생각해 볼 수 있는 학습 자료입니다. 
 
 ### 3. **`GoldenLab Python` 수업 내용**
-1. 수업 일정 안내  
+1. GoldenLab Python 안내  
 2. `Colab` 시작하기
    * `Colab`으로 python 만들기
    * `markdown` 사용해 보기
