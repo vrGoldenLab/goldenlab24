@@ -98,7 +98,7 @@ soup.select("#news_List ul li")
   * xhr타입의 데이터의 이름을 우클릭하고 copy-copy as cURL(bash)를 클릭하면 cURL데이터가 복사됩니다. 
   *  이렇게 복사된 cURL 데이터를 파이썬의 requests로 바꿔주는 사이트가 있습니다. `curl.trillworks.com/` 
   이 사이트에 접속해서 curl command에 우리가 복사한 정보를 넣으면 자동으로 Pyton requests로 변환되는데, 
-  변환된 requests를 다시 복사해서 코드로 실행시키면 됩니다.    
+  변환된 requests를 다시 복사해서 코드로 실행시키면 됩니다.      
 2.가상의 브라우저를 띄워서 실제 사용자 측에서의 렌더링을 기다린 후 데이터를 가져오는 방법    
   * selenium 라이브러리가 추가로 필요  
   * 가상 환경을 아래에서 생성하는데에 필요한 요소 설치 
