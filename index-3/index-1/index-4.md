@@ -2,6 +2,7 @@
 
 `웹 크롤링`이란 컴퓨터 소프트웨어 기술로 웹 사이트들에서 원하는 정보를 추출하는 것을 의미합니다.  
 `웹 크롤러`란 인터넷에 있는 웹페이지를 방문해서 자료를 수집하는 일을 하는 프로그램을 말합니다.  
+
 이때 한 페이지만 방문하는 것이 아니라 그 페이지에 링크되어 있는 또 다른 페이지를 차례대로 방문하고 이처럼 링크를 따라 웹을 돌아다니는 모습이 마치 거미와 비슷하다고 해서 `스파이더`라고 부르기도 합니다.  
 
 웹은 기본적으로 HTML 형태로 되어 있습니다.  
@@ -12,7 +13,8 @@
 * SSR방식은 server-side rendering입니다. 다시 말해, 사용자가 서버에 url을 통해서 request를 보내게 되면 서버에서 구성 요소가 rendering되어 html파일을 그려서 주는 것입니다.  
 * CSR방식은 client-side rendering입니다. 이 방식은 서버에서 html을 구성해서 바로 주는것이 아닙니다.  
 document를 불러온 사용자측에서 javascript코드를 통해서 엘리먼트의 형식으로 css정보를 나중에 외부 소스로 받는 방식입니다.  
-javascript코드를 통해서 html을 사용자가 구성한다는 것입니다. 
+javascript코드를 통해서 html을 사용자가 구성한다는 것입니다.  
+
 1. 일반적인 경우의 크롤링 (SSR) - 네이버 뉴스스탠드, 네이버 웹툰 크롤링  
 크롤링을 하기 위해서는 라이브러리가 필요합니다. 가장 기본적인, 웹페이지의 정보를 요청하는 request 라이브러리입니다.    
 웹페이지는 사용자에게 html(text)의 형태로 제공되고 따라서, 우리가 정의한 response를 text로 받아올 수 있습니다.   
@@ -86,7 +88,8 @@ soup.select("#news_List ul li")
 그런데 이 코드를 실행하면 빈 리스트가 리턴됩니다.  
 * 이를 해결하기 위한 방법
   네트워크상에서 데이터를 가져오는 부분을 찾아서 가져오는 방법  
-  가상의 브라우저를 띄워서 실제 사용자 측에서의 렌더링을 기다린 후 데이터를 가져오는 방법
+  가상의 브라우저를 띄워서 실제 사용자 측에서의 렌더링을 기다린 후 데이터를 가져오는 방법  
+  
 1. 네트워크상에서 데이터를 가져오는 부분을 찾아서 가져오는 방법    
   * 야구의 최신 기사들을 최신순/인기순을 전환했을 때 새롭게 전송되는 데이터가 우리가 크롤링하고자 하는 야구의 최신 기사 목록입니다. 
   * 인터넷 도구에서 네트워크 탭을 누른 다음 최신순/인기순을 전환해보니 일부분만 새롭게 로드되는 것을 확인할 수 있습니다. 
@@ -94,7 +97,8 @@ soup.select("#news_List ul li")
   * xhr타입의 데이터의 이름을 우클릭하고 copy-copy as cURL(bash)를 클릭하면 cURL데이터가 복사됩니다. 
   *  이렇게 복사된 cURL 데이터를 파이썬의 requests로 바꿔주는 사이트가 있습니다. `curl.trillworks.com/` 
   이 사이트에 접속해서 curl command에 우리가 복사한 정보를 넣으면 자동으로 Pyton requests로 변환되는데, 
-  변환된 requests를 다시 복사해서 코드로 실행시키면 됩니다. 
+  변환된 requests를 다시 복사해서 코드로 실행시키면 됩니다.  
+  
  2. 가상의 브라우저를 띄워서 실제 사용자 측에서의 렌더링을 기다린 후 데이터를 가져오는 방법
   * selenium 라이브러리가 추가로 필요  
   * 가상 환경을 아래에서 생성하는데에 필요한 요소 설치 
@@ -118,19 +122,19 @@ driver = webdriver.Chrome("chromedriver", options=chrome_options)
 driver.get("https://search.naver.com/search.naver?where=image&sm=tab_jum&query=%EB%82%98%EC%84%B1%EB%B2%94")
 driver.page_source
 ```
-    * 이미지가 총 몇 장이나 리턴되는지를 알아보기 위한 코드
+   * 이미지가 총 몇 장이나 리턴되는지를 알아보기 위한 코드
 ```
 images = driver.find_elements_by_css_selector('.photo_bx .thumb img')
 print(images)
 print(len(images))
 ```
-    * 이미지를 사진의 형태로 받기 위해서 코드
+   * 이미지를 사진의 형태로 받기 위해서 코드
 ```
 from IPython.core.display import display, HTML
 
 display(HTML(driver.page_source))
 ```
-    * for문으로 PAGE_DOWN을 0.5초 간격으로 총 20번을 실행 PAGE_DOWN이 브라우저에서 스크롤을 내리는 것과 같은 역할. 만약 이 상태에서 한 번 더 같은 코드를 실행하게 되면 아래의 250이라는 숫자가 또 바뀔 것입니다.
+   * for문으로 PAGE_DOWN을 0.5초 간격으로 총 20번을 실행 PAGE_DOWN이 브라우저에서 스크롤을 내리는 것과 같은 역할. 만약 이 상태에서 한 번 더 같은 코드를 실행하게 되면 아래의 250이라는 숫자가 또 바뀔 것입니다.
 수치가 누적되는데, 이미지의 종류에 따라서 일정한 패턴으로 수가 늘어나는 것은 아니다. 이미지 숫자는 500을 넘지 않는데, 이는 네이버 이미지 페이지에서 스크롤을 끝까지 내린다고 가정하더라도 한 번에 500개까지의 이미지만을 보여주기 때문입니다.
 ```
 from selenium.webdriver.common.keys import Keys
@@ -146,7 +150,7 @@ images = driver.find_elements_by_css_selector('.photo_bx .thumb img')
 print(images)
 print(len(images))
 ```
-    * 이미지를 사진의 형태로 리스트 작성
+   * 이미지를 사진의 형태로 리스트 작성
 ```
 img_src_list = [img.get_attribute("src") for img in images]
 # print(img_src_list)
