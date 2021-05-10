@@ -12,27 +12,28 @@
 
 ### 3. **`GoldenLab Python` 수업 내용**
 1. GoldenLab Python 안내  
-2. `Colab` 시작하기
+2. [`Colab` 시작하기]((index-1/README.md)
    * `Colab`으로 python 만들기
    * `markdown` 사용해 보기
-3. 파이썬 기초 
+3. [파이썬 기초](index-2/undefined/README.md)    
    * 코딩의 기초 문법
    * 조금 더 알아보는 코딩 기초
-      * 데이터 타입
-      * 튜플
-      * 리스트
-      * 집합
-      * 딕셔너리
-      * 형변환
-      * 조건문
-      * 반복문
-      * 함수
+      * [데이터 타입](index-2/undefined-1/index.md)
+      * [튜플](index-2/undefined-2/index.md)
+      * [리스트](index-2/undefined-3/index.md)
+      * [집합](index-2/undefined-3/index-1.md)
+      * [딕셔너리](index-2/undefined-3/index-2.md)
+      * [형변환](index-2/undefined-3/index-3.md)
+      * [조건문](index-2/undefined-3/index-4.md)
+      * [반복문](index-2/undefined-3/index-5.md)
+      * [함수](index-2/undefined-3/index-6.md)
    * 더 알아보는 코딩
-      * 데이터 입출력
-      * 문자열 처리
-      * 모듈과 패키지
+      * [데이터 입출력](index-2/undefined-5/index.md)
+      * [문자열 처리](index-2/undefined-5/index-1.md)
+      * [모듈과 패키지](index-2/undefined-5/index-2.md)
 4. 파이썬 활용 
    * 프로그램 개발 환경의 이해
+   
    * 파이썬 DateFrame 사용하기
    * 파이썬 API 사용하기 
    * 파이썬 알고리즘 
