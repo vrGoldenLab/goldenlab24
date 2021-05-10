@@ -69,10 +69,8 @@ pip는 파이썬 패키지 인덱스의 패키지 관리 명령어입니다.
 $ curl -O https://bootstrap.pypa.io/get-pip.py
 $ sudo python3 get-pip.py
 ```
-만약 리눅스에 curl이 설치되어 있지 않다면 설치해 줍니다.    
-```
-우분투 : $ sudo apt-get install curl
-```
+* 만약 리눅스에 curl이 설치되어 있지 않다면 설치해 줍니다.     
+우분투 : `$ sudo apt-get install curl`
 * pip로 패키지 설치하기    
 pip install 패키지  
 `Windows : 명령 프롬프트(cmd)로 실행`  
@@ -208,6 +206,6 @@ maria.greeting()
 `from .모듈 import *`
 
 
-`from 패키지 import *` 이렇게 작성하면 __init__.py에서 모듈만 가져왔을 뿐 모듈 안의 함수는 가져오지 않아 에러가 발생합니다.
+`from 패키지 import *` 이렇게 작성하면 `__init__.py`에서 모듈만 가져왔을 뿐 모듈 안의 함수는 가져오지 않아 에러가 발생합니다.
 
 
