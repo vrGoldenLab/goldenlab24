@@ -42,7 +42,7 @@
  ![193](https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/193.png)  
   Null 값(결측치)이 포함된 것을 알 수 있습니다.  
 * isnull( ) : 빈 값에 True를 출력합니다.  
- <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/197.png" width="600" height="400"></center> 
+ <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/197.png" width="300" height="300"></center> 
 *  isnull( ).sum( ) : 컬럼 별 빈 값 개수를 출력합니다.   
  ![198](https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/198.png) 
 * mean( )함수로 해당 컬럼의 평균값을 구할 수 있습니다.  
