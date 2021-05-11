@@ -36,18 +36,18 @@
 
   <img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/187.png" width="300" height="200">   
   
-  <img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/188.png" width="300" height="400"> 
+  <img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/188.png" width="300" height="300"> 
 * describe() : 컬럼 별 통계량을 출력합니다.    
-  ![192](https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/192.png)  
+  <img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/192.png" width="600" height="400"> 
 * info() : 행과 열의 크기, 컬럼명, 컬럼을 구성하는 값의 자료형 등을 출력합니다.
 
   <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/193.png" width="300" height="300"></center>  
   
    Null 값(결측치)이 포함된 것을 알 수 있습니다.  
 * isnull( ) : 빈 값에 True를 출력합니다.  
-  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/197.png" width="500" height="300"></center> 
+  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/197.png" width="400" height="300"></center> 
 *  isnull( ).sum( ) : 컬럼 별 빈 값 개수를 출력합니다.  
-  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/198.png" width="500" height="150"></center>   
+  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/198.png" width="300" height="150"></center>   
 
 * mean( )함수로 해당 컬럼의 평균값을 구할 수 있습니다.  
   <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/199.png" width="500" height="150"></center> 
