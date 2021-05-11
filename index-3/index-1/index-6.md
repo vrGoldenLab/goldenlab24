@@ -30,22 +30,22 @@
   `df = pd.read_csv('파일경로/파일명.csv')`    
   `df`    
 * colab 폴더에서 파일명을 더블클릭 하면 데이터 내용을 볼 수 있습니다.   
-![183](https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/183.png)  
+ ![183](https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/183.png)  
 ## 4. pandas 데이터 정보 확인  
 * head() : 불러온 데이터 상위 n행을 출력합니다. 빈 채로 출력하면 디폴트 5개를 출력합니다.   
-![187](https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/187.png) 
-![188](https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/188.png)
+ ![187](https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/187.png) 
+ ![188](https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/188.png)
 
 * describe() : 컬럼 별 통계량을 출력합니다.  
-![192](https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/192.png)  
+ ![192](https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/192.png)  
 * info() : 행과 열의 크기, 컬럼명, 컬럼을 구성하는 값의 자료형 등을 출력합니다.  
-![193](https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/193.png)  
+ ![193](https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/193.png)  
   Null 값(결측치)이 포함된 것을 알 수 있습니다.  
 * isnull( ) : 빈 값에 True를 출력합니다.  
-![197](https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/197.png)  
+ <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/197.png" width="600" height="400"></center> 
 *  isnull( ).sum( ) : 컬럼 별 빈 값 개수를 출력합니다.   
-![198](https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/198.png) 
+ ![198](https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/198.png) 
 * mean( )함수로 해당 컬럼의 평균값을 구할 수 있습니다.  
-![199](https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/199.png) 
+ <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/199.png" width="300" height="100"></center> 
 
 
