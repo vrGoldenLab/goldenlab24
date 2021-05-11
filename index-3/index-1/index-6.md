@@ -15,6 +15,7 @@
 * csv 파일로 다운로드
 * 데이터 파일을 필요한 형태로 정제
   * 엑셀에서 다운로드 파일 열기
+<img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/172.png">
 ![172](https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/172.png)
   * 불필요한 부분 삭제
   * 헤더 수정
