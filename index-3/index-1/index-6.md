@@ -15,11 +15,11 @@
 * csv 파일로 다운로드
 * 데이터 파일을 필요한 형태로 정제
   * 엑셀에서 다운로드 파일 열기
-    <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/172.png" width="600" height="300"></center>    
+    <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/172.png" width="500" height="300"></center>    
   * 불필요한 부분 삭제  
   * 헤더 수정  
   
-  ![173](https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/173.png){: width="300" height="300"){: .center}  
+    ![173](https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/173.png) 
   * 파일형식을 csv utf-8(쉼표로 분리)로 선택하여 다른이른으로 저장합니다.
     <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/176.png" width="600" height="150"></center>  
   * 구글드라이브에 업로드  
