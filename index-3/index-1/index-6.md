@@ -36,7 +36,7 @@
 
   <img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/187.png" width="300" height="200">   
   
-  <img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/188.png" width="300" height="500"> 
+  <img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/188.png" width="300" height="400"> 
 * describe() : 컬럼 별 통계량을 출력합니다.    
   ![192](https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/192.png)  
 * info() : 행과 열의 크기, 컬럼명, 컬럼을 구성하는 값의 자료형 등을 출력합니다.
