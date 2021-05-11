@@ -42,8 +42,8 @@
 * isnull( ) : 빈 값에 True를 출력합니다.  
 ![197](https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/197.png)  
 *  isnull( ).sum( ) : 컬럼 별 빈 값 개수를 출력합니다.   
-![198](.\gdata\images\198.png) 
+![198](https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/198.png) 
 * mean( )함수로 해당 컬럼의 평균값을 구할 수 있습니다.  
-![199](.\goldenlab24\gdata\images\199.png) 
+![199](https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/199.png) 
 
 
