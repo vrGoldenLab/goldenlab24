@@ -31,9 +31,8 @@
 ![183](https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/183.png)
 ## * pandas 데이터 정보 확인  
 * head() : 불러온 데이터 상위 n행을 출력합니다. 빈 채로 출력하면 디폴트 5개를 출력합니다.   
-* 
-|:-------------------------:|:--------------------------------: |
-|![187](https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/187.png) |![187](https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/188.png)|
+![187](https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/187.png) 
+![187](https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/188.png)
 
 * describe() : 컬럼 별 통계량을 출력합니다.  
 ![192](https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/192.png)  
@@ -41,10 +40,10 @@
 ![193](https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/193.png)  
   Null 값(결측치)이 포함된 것을 알 수 있습니다.  
 * isnull( ) : 빈 값에 True를 출력합니다.  
-![197](.\gdata\images\197.png)  
+![197](https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/197.png)  
 *  isnull( ).sum( ) : 컬럼 별 빈 값 개수를 출력합니다.   
 ![198](.\gdata\images\198.png) 
 * mean( )함수로 해당 컬럼의 평균값을 구할 수 있습니다.  
-![199](.\gdata\images\199.png) 
+![199](./goldenlab24/gdata/images/199.png) 
 
 
