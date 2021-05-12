@@ -55,9 +55,10 @@
   <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/198.png" width="300" height="150"></center>   
 
 * mean( )함수로 해당 컬럼의 평균값을 구할 수 있습니다.  
-  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/199.png" width="500" height="150"></center> 
-## 2. 연령별 인구 시각화
-#### 2-2. 데이터 수집: 행정안전부 : [https://www.mois.go.kr](https://www.mois.go.kr)
+  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/199.png" width="500" height="150"></center>   
+  
+## 2. 연령별 인구 시각화  
+#### 2-2. 데이터 수집: 행정안전부 : [https://www.mois.go.kr](https://www.mois.go.kr)  
 <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/235.png" ></center>  
 *  전체시군구현황 선택, cvs파일 다운로드
   <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/236.png" width="450" height="400"></center> 
