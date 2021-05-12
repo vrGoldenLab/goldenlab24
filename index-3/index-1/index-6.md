@@ -60,23 +60,29 @@
   
 ## 2. 연령별 인구 시각화  
 #### 2-2. 데이터 수집: 행정안전부 : [https://www.mois.go.kr](https://www.mois.go.kr)  
-<center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/235.png" ></center>  
-*  전체시군구현황 선택, cvs파일 다운로드
-  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/236.png" width="450" height="400"></center> 
+<center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/235.png" ></center>    
+* 전체시군구현황 선택, cvs파일 다운로드
+  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/236.png" width="450" height="400"></center>  
+  
 * 헤더 수정, 컬럼수정 (불필요한 부분 삭제) , 숫자의 쉼표 제거
-  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/237.png" ></center> 
-* 행,열 변환
-  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/239.png" ></center> 
+  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/237.png" ></center>   
+  
+* 행,열 변환  
+  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/239.png" ></center>   
+  
 * 엑셀 선택하여 붙여넣기 > 바꾸기
-  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/240.png" ></center> 
+  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/240.png" ></center>   
+  
 * 헤더 바꾸기
-  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/241.png" ></center> 
-* 파일명, 파일형식 변환 - 다른 이름으로 저장
-* 코랩에 파일 업로드
+  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/241.png" ></center>  
+ 
+* 파일명, 파일형식 변환 - 다른 이름으로 저장  
+* 코랩에 파일 업로드  
 * 한글 폰트 설치
-  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/248.png" ></center> 
+  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/248.png" ></center>   
+  
 * 판다스 데이터프레임으로 읽기 - 지역별 인구 행렬 변경,전체인구 항목 추가
-  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/252.png" ></center> 
+  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/252.png" ></center>   
 
 
 ## 3. 관심 있는 데이터를 찾아 시각화하기
