@@ -101,21 +101,15 @@
   <img style="width:100%" src="../../images/237.png">
   </div> 
   
-* 행,열 변환  
-  
-<img style="width:100%" src="../../images/239.png">  
-  
+* 행,열 변환    
+<img style="width:100%" src="../../images/239.png">
     
 * 엑셀 선택하여 붙여넣기 > 바꾸기
-<div style="width:100%; margin:auto; margin-bottom:10px; margin-top:20px;">
-<img style="width:100%" src="../../images/240.png">
-</div> 
+<img style="width:100%" src="../../images/240.png"> 
   
 * 헤더 바꾸기
 <div style="width:100%; margin:auto; margin-bottom:10px; margin-top:20px;">
-<img style="width:100%" src="../../images/241.png">
-</div> 
-  
+<img style="width:100%" src="../../images/241.png"></div>    
  
 * 파일명, 파일형식 변환 - 다른 이름으로 저장  
 * 코랩에 파일 업로드  
