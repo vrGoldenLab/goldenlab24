@@ -148,6 +148,5 @@ type(sales)
 import pandas as pd
 sales = pd.read_excel('SupermarketSales.xlsx')
 type(sales)
-# >>> pandas.core.frame.DataFrame
 
 ### 코랩 코딩 실습: []()
