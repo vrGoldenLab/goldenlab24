@@ -21,13 +21,13 @@
 * csv 파일로 다운로드
 * 데이터 파일을 필요한 형태로 정제
   * 엑셀에서 다운로드 파일 열기
-    <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/172.png" width="500" height="300"></center>    
+    <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/images/172.png" width="500" height="300"></center>    
   * 불필요한 부분 삭제  
   * 헤더 수정  
   
-    ![173](https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/173.png) 
+    ![173](https://github.com/vrGoldenLab/goldenlab24/blob/master/images/173.png) 
   * 파일형식을 csv utf-8(쉼표로 분리)로 선택하여 다른이른으로 저장합니다.
-    <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/176.png" width="600" height="150"></center>  
+    <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/images/176.png" width="600" height="150"></center>  
   * 구글드라이브에 업로드  
       
 #### 1-2. 데이터 확인   
@@ -36,53 +36,53 @@
   `df = pd.read_csv('파일경로/파일명.csv')`    
   `df`    
 * colab 폴더에서 파일명을 더블클릭 하면 데이터 내용을 볼 수 있습니다.   
- ![183](https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/183.png)  
+ ![183](https://github.com/vrGoldenLab/goldenlab24/blob/master/images/183.png)  
 #### 1-3. pandas 데이터 정보 확인  
 * head() : 불러온 데이터 상위 n행을 출력합니다. 빈 채로 출력하면 디폴트 5개를 출력합니다.  
 
-  <img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/187.png" width="300" height="200">   
+  <img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/images/187.png" width="300" height="200">   
   
-  <img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/188.png" width="300" height="300"> 
+  <img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/images/188.png" width="300" height="300"> 
 * describe() : 컬럼 별 통계량을 출력합니다.    
-  <img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/192.png" width="600" height="400"> 
+  <img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/images/192.png" width="600" height="400"> 
 * info() : 행과 열의 크기, 컬럼명, 컬럼을 구성하는 값의 자료형 등을 출력합니다.
 
-  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/193.png" width="300" height="300"></center>  
+  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/images/193.png" width="300" height="300"></center>  
   
    Null 값(결측치)이 포함된 것을 알 수 있습니다.  
 * isnull( ) : 빈 값에 True를 출력합니다.  
-  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/197.png" width="400" height="300"></center> 
+  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/images/197.png" width="400" height="300"></center> 
 * isnull( ).sum( ) : 컬럼 별 빈 값 개수를 출력합니다.   
-  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/198.png" width="300" height="150"></center>   
+  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/images/198.png" width="300" height="150"></center>   
 
 * mean( )함수로 해당 컬럼의 평균값을 구할 수 있습니다.  
-  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/199.png" width="500" height="150"></center>   
+  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/images/199.png" width="500" height="150"></center>   
   
 ## 2. 연령별 인구 시각화  
 #### 2-2. 데이터 수집: 행정안전부 : [https://www.mois.go.kr](https://www.mois.go.kr)  
-<center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/235.png" ></center>    
+<center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/images/235.png" ></center>    
 * 전체시군구현황 선택, cvs파일 다운로드
-  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/236.png" width="450" height="400"></center>  
+  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/images/236.png" width="450" height="400"></center>  
   
 * 헤더 수정, 컬럼수정 (불필요한 부분 삭제) , 숫자의 쉼표 제거
-  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/237.png" ></center>   
+  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/images/237.png" ></center>   
   
 * 행,열 변환  
-  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/239.png" ></center>   
+  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/images/239.png" ></center>   
   
 * 엑셀 선택하여 붙여넣기 > 바꾸기
-  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/240.png" ></center>   
+  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/images/240.png" ></center>   
   
 * 헤더 바꾸기
-  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/241.png" ></center>  
+  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/images/241.png" ></center>  
  
 * 파일명, 파일형식 변환 - 다른 이름으로 저장  
 * 코랩에 파일 업로드  
 * 한글 폰트 설치
-  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/248.png" ></center>   
+  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/images/248.png" ></center>   
   
 * 판다스 데이터프레임으로 읽기 - 지역별 인구 행렬 변경,전체인구 항목 추가
-  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/gdata/images/252.png" ></center>   
+  <center><img src="https://github.com/vrGoldenLab/goldenlab24/blob/master/images/252.png" ></center>   
 
 
 ## 3. 관심 있는 데이터를 찾아 시각화하기
