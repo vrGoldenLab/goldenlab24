@@ -107,14 +107,14 @@
   
     
 * 엑셀 선택하여 붙여넣기 > 바꾸기
-  <div style="width:50%; margin:auto; margin-bottom:10px; margin-top:20px;">
-  <img style="width:100%" src="../../images/240.png">
-  </div> 
+<div style="width:50%; margin:auto; margin-bottom:10px; margin-top:20px;">
+<img style="width:100%" src="../../images/240.png">
+</div> 
   
 * 헤더 바꾸기
-  <div style="width:50%; margin:auto; margin-bottom:10px; margin-top:20px;">
-  <img style="width:100%" src="../../images/241.png">
-  </div> 
+<div style="width:50%; margin:auto; margin-bottom:10px; margin-top:20px;">
+<img style="width:100%" src="../../images/241.png">
+</div> 
   
  
 * 파일명, 파일형식 변환 - 다른 이름으로 저장  
