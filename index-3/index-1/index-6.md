@@ -44,9 +44,10 @@
   `df = pd.read_csv('파일경로/파일명.csv')`    
   `df`    
 * colab 폴더에서 파일명을 더블클릭 하면 데이터 내용을 볼 수 있습니다. 
-  <div style="width:50%; margin:auto; margin-bottom:10px; margin-top:20px;">
-  <img style="width:100%" src="../../images/183.png">
-  </div>  
+
+
+<img style="width:100%" src="../../images/183.png">
+
  
 #### 1-3. pandas 데이터 정보 확인  
 * head() : 불러온 데이터 상위 n행을 출력합니다. 빈 채로 출력하면 디폴트 5개를 출력합니다. 
