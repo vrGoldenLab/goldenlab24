@@ -50,6 +50,51 @@ a = open('test.txt', mode='at', encoding='utf-8')
 a.writelines(['writelines로 추가합니다.', '내부 원소는 개행이 안되는군요.', '개행을 하려면 개행문자를 입력해야합니다.\n', '마지막에는 안붙여도 개행문자가..'])
 a.close()
 ```
+#  2. Pandas 사용법
+* 더욱 자세한 사용법은 [https://pandas.pydata.org/pandas-docs/stable/index.html](https://pandas.pydata.org/pandas-docs/stable/index.html) 에서 살펴볼 수 있습니다.
+파이썬의 경우에는 엑셀 파일(xlsx)을 열기 위해서는 판다스 라이브러리를 사용해야 합니다.  
+판다스 라이브러리란 일종에 확장 프로그램으로 파이썬을 엑셀처럼 사용할 수 있게 도와주는 도구입니다.  
+`import pandas as pd`
+판다스 라이브러리를 불러와서 pd라는 축약어로 지정합니다. 매번 번거로우니 pd라는 짧은 단어 사용하기 위함입니다.  
+
+* Pandas의 Dataframe을 생성합니다.
+```
+names = ['Bob','Jessica','Mary','John','Mel']
+age = [20, 31, 22, 19, 40]
+
+TestDataSet = list(zip(names,births))
+df = pd.DataFrame(data = TestDataSet, columns=['Names', 'Births'])
+```
+* 데이터프레임의 열 타입,형태,열 정보.
+```
+# 데이터프레임의 열 타입 정보입니다.
+print(df.dtypes)
+print("-----------")
+
+# 데이터프레임의 형태 정보입니다.
+print(df.index)
+print("-----------")
+
+# 데이터프레임의 열 정보입니다.
+print(df.columns)
+```
+
+* 데이터프레임의 하나의 열을 선택합니다.
+```
+df['Names']
+```
+* 0~3 번째 인덱스를 선택합니다.
+```
+df[0:3]
+```
+* Births 열이 100보다 큰 데이터를 선택합니다.
+```
+df[df['Births'] > 100]
+```
+* 데이터프레임에서의 평균값을 계산합니다.
+```
+df.mean()
+```
 
 # 2차원 구조 엑셀 데이터 다루기  
 
