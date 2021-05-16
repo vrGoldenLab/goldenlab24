@@ -45,10 +45,7 @@
   `df`    
 * colab 폴더에서 파일명을 더블클릭 하면 데이터 내용을 볼 수 있습니다. 
 
-
 <img style="width:100%" src="../../images/183.png">
-</div>
-*
  
 #### 1-3. pandas 데이터 정보 확인  
 * head() : 불러온 데이터 상위 n행을 출력합니다. 빈 채로 출력하면 디폴트 5개를 출력합니다. 
@@ -103,10 +100,12 @@
   <img style="width:100%" src="../../images/237.png">
   </div> 
   
-* 행,열 변환      
+* 행,열 변환  
+
 <img style="width:100%" src="../../images/239.png">  
     
 * 엑셀 선택하여 붙여넣기 > 바꾸기  
+
 <img style="width:100%" src="../../images/240.png">   
   
 * 헤더 바꾸기  
