@@ -103,16 +103,16 @@
   
 * 행,열 변환  
   
-  <img style="width:100%" src="../../images/239.png">
+<img style="width:100%" src="../../images/239.png">  
   
     
 * 엑셀 선택하여 붙여넣기 > 바꾸기
-  <div style="width:20%; margin:auto; margin-bottom:10px; margin-top:20px;">
+  <div style="width:50%; margin:auto; margin-bottom:10px; margin-top:20px;">
   <img style="width:100%" src="../../images/240.png">
   </div> 
   
 * 헤더 바꾸기
-  <div style="width:20%; margin:auto; margin-bottom:10px; margin-top:20px;">
+  <div style="width:50%; margin:auto; margin-bottom:10px; margin-top:20px;">
   <img style="width:100%" src="../../images/241.png">
   </div> 
   
