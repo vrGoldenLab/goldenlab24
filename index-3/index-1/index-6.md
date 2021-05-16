@@ -102,9 +102,9 @@
   </div> 
   
 * 행,열 변환  
-  <div style="width:20%; margin:auto; margin-bottom:10px; margin-top:20px;">
+  
   <img style="width:100%" src="../../images/239.png">
-  </div> 
+  
     
 * 엑셀 선택하여 붙여넣기 > 바꾸기
   <div style="width:20%; margin:auto; margin-bottom:10px; margin-top:20px;">
