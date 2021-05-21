@@ -6,20 +6,31 @@ Colab을 사용하기 위해 먼저 Colab환경을 확인해 봅시다.
 
 ### Colab 서버 스펙 확인
 
-```python
-
 
 아래의 코드는 한줄씩 셀에서 실행하는 것이 좋습니다.  
 쥬피터 노트북의 셀은 출력결과가 여러개인 경우 맨 마지막의 OutputStream 결과가 남으므로 이전 출력결과를 확인할 수 없기 때문입니다.   
 일반적인 .py파일 작성과는 다르게 .ipynb파일의 경우 가급적 하나의 셀에 많은 코드를 작성하지 않는것이 좋습니다.  
- 
+``` 
 !cat /etc/issue.net
+```
+```
 !cat /proc/meminfo
+```
+```
 !cat /proc/cpuinfo
+```
+```
 !df -h
+```
+```
 !nvidia-smi
+```
+```
 !python --version
+```
+```
 !ls
+```
 
 # 파일처리
 
