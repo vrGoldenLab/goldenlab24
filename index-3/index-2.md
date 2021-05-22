@@ -58,7 +58,7 @@ Github Pages를 활용하여 기술블로그를 운영하기 위해서는 몇 �
 11. Link your GitHub repository - (Select a repository to synchronize 과정) 
 
 ## * 깃북 templete 파일을 이용해서 테스트해보기 
-1. [https://github.com/DTpython2021/DTpythonTemplete.git](https://github.com/DTpython2021/DTpythonTemplete) 
+1. 이동 : [https://github.com/DTpython2021/DTpythonTemplete](https://github.com/DTpython2021/DTpythonTemplete) 
 2. master branch download zip
 3. github Desktop 실행
 4. github Desktop Repository clone 
