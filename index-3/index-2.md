@@ -43,4 +43,38 @@ Github Pages를 활용하여 기술블로그를 운영하기 위해서는 몇 �
 
 ###  YYYY-mm-dd-{아무 이름} 형태로 작성되어야 fastpages가 이를 인식하고 파일을 html로 변환합니다.  
 
+# 깃북 만들기  
+## * 만들기 
+1. 깃북에 접속하기 https://gitbook.com
+2. 회원 가입 방법 - 신규 이메일 가입 or 깃허브 연동 가입
+3. 회원 가입 과정 - 계정 검증 Verify 단계
+4. 깃북 Dashboard 관리자 페이지 접속하기
+5. Start with a personal space (개인용 공간) 
+6. 개인용 공간,프로젝트 공간(space) 생성하기 - Shareable Link 생성하는 법 (Visibility : Private → Public)
+7. USERNAME 변경하는 법 : 프로필 및의 setting에서 name변경
+8. 공유 링크 주소 변경하는 법 - domain setting : 작업공간을 클릭하고 왼쪽메뉴 `share`에서 `Shareable Link`밑 `domain setting`을 클릭 변경  
+9. 깃허브에서 연동할 레포지토리(repository) 생성하기
+10. 깃북에서 Integrations 단계 진행 (왼쪽메뉴)
+11. Link your GitHub repository - (Select a repository to synchronize 과정) 
+
+## * 깃북 templete 파일을 이용해서 테스트해보기 
+1. [https://github.com/DTpython2021/DTpythonTemplete.git](https://github.com/DTpython2021/DTpythonTemplete) 
+2. master branch download zip
+3. github Desktop 실행
+4. github Desktop Repository clone 
+5. download zip 파일 압축 풀고 복사 후 탐색기를 열고 사용자>문서>github>해당repository밑에 붙여넣습니다.
+6. github Desktop commit 주석 입력 후 commit 
+7. github Desktop push request 
+8. SUMMARY.md 내용을 확인하고 git북 내용을 확인합니다 
+
+## * 깃북 팀작업 
+1. SUMMARY.md 내용을 조별 분담 내용을 확인합니다 
+2. github (공통 gitbook)에 공동작업자로 팀 이끔이를 등록합니다. (Repository 오른쪽 상단 `...` dml setting > manage access 메일등록)
+3. 이끔이 메일 확인 후 수락 버튼을 클릭합니다
+4. 공동작업자는 github Desktop 상단 파일 메뉴> clone repository > url  (github 원격 Repository 주소) 입력합니다.
+5. 공동작업자는 feach를 통해 최신 github버전을 확인 후 pull 내용 유무를 확인,처리 합니다.
+6. 공동작업자는 작업내용의 파일을 사용자>문서>github>해당repository밑에 붙여넣습니다.
+7. github Desktop commit 주석 입력 후 commit 
+8. github Desktop push request 
+9. git북 내용을 확인합니다
 
