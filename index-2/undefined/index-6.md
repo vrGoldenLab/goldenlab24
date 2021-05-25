@@ -95,6 +95,5 @@ random.randrange(0, 101, 2) # Even integer from 0 to 100
 랜덤하게 하나의 원소를 선택합니다.   
 random.choice('abcdefghij') # Choose a random element random.choice('가위','바위','보')
 
-## <실습link>
-#### colab으로 실습하기: [https://colab.research.google.com/drive/1hcaetTRU7Yre6mOI3zysmCUtf7hzIiGP?usp=sharing](https://colab.research.google.com/drive/1hcaetTRU7Yre6mOI3zysmCUtf7hzIiGP?usp=sharing)
+
 
