@@ -89,33 +89,41 @@ r.status_code # 결과값 200
 1. n의 거듭제곱을 구하는 모듈 square2 민들기   
 `square2.py 파일명`    
 `square2.ipynb 파일명`    
-스크립트 파일에서 확장자를 제외하면 모듈 이름이 됨  
+스크립트 파일에서 확장자를 제외하면 모듈 이름이 됩니다
+
 ```
 base = 2          # 변수
 
 def square(n):    # 함수
    return base ** n
 ```
+
 2. 모듈 사용하기  
+
 `import 모듈`    
 `모듈.변수`    
 `모듈.함수()`   
-* main 모듈을 실행하는 파일과 모듈 파일은 같은 폴더에 존재  
+* main 모듈을 실행하는 파일과 모듈 파일은 같은 폴더에 존재해야 합니다.
+
 ```
 import square2               # import로 square2 모듈을 가져옴
  
 print(square2.base)          # 모듈.변수 형식으로 모듈의 변수 사용
 print(square2.square(10))    # 모듈.함수() 형식으로 모듈의 함수 사용
 ```
+
 * from import로 변수, 함수 가져오기  
 from import로 변수와 함수를 가져온 뒤 모듈 이름을 붙이지 않고 사용할 수 있습니다. 
 `from 모듈 import 변수, 함수`  
+
 ```
 from square2 import base, square
 print(base)
 square(10)
 ```
-3. 모듈에 클래스 작성하고 사용하기  
+
+3. 모듈에 클래스 작성하고 사용하기 
+ 
 ```
 class Person:    # 클래스
     def __init__(self, name, age, address):
@@ -127,8 +135,8 @@ class Person:    # 클래스
         print('안녕하세요. 저는 {0}입니다.'.format(self.name))
 ```
 `import 모듈`  
-`모듈.클래스()` 로 사용합니다.  
-main 프로그램에서  
+`모듈.클래스()` 로 사용합니다. 
+  
 ```
 import person    # import로 person 모듈을 가져옴
 
@@ -136,24 +144,29 @@ import person    # import로 person 모듈을 가져옴
 maria = person.Person('마리아', 20, '서울시 서초구 반포동')
 maria.greeting()  
 ```
+
 <실행 결과>  
 안녕하세요. 저는 마리아입니다.  
+
 4. from import로 클래스 가져오기  
 from import로 클래스를 가져온 뒤 모듈 이름을 붙이지 않고 사용할 수 있습니다.  
 `from 모듈 import 클래스`  
+
 ```
 from person import Person
 maria = Person('마리아', 20, '서울시 서초구 반포동')
 maria.greeting()
 ```
 
-## 4. 모듈과 시작점 알아보기
+## 4. 모듈과 시작점 알아보기  
+
 `if __name__ == '__main__':  `
-`    코드                    `
+`    코드    `                  `
 현재 스크립트 파일이 실행되는 상태를 파악하기 위해 사용합니다.  
 * ` __name__`
    `__name__`은 모듈의 이름이 저장되는 변수이며 import로 모듈을 가져왔을 때 모듈의 이름이 들어갑니다.   
    하지만 파이썬 인터프리터로 스크립트 파일을 직접 실행했을 때는 모듈의 이름이 아니라 `'__main__'`이 들어갑니다. 
+   
 * import로 모듈을 가져오면 해당 스크립트 파일이 한 번 실행됩니다.  
    hello.ipynb의 `__name__` 변수에는 'hello'가 들어가고,  
    main.ipynb의 `__name__` 변수에는 `'__main__'`이 들어갑니다.  
